@@ -1,0 +1,30 @@
+{
+  "air_manifest_sha256": "ebf9126d61610beaf94312ecb6cce9a8151d5e4afabb1b695a4774883b5dc441",
+  "selected_air_files": 341,
+  "stock_map_xml": {
+    "data/map/ardennes/map.xml": "b61c51164b1b5ed63b0db96e1380a4b0ad70737f176b3f7f7332f2363d2f404b",
+    "data/map/bornholm/map.xml": "b0c89803cadd69f0a72c52dd01f63fc7a2658af450c43d318e4b1a275148e1d0",
+    "data/map/fort_irwin_ntc/map.xml": "2956f22cc918904e5d1dffda445f380cfdd734d8831af161e34a407dbfac3dc0",
+    "data/map/fulda_gap/map.xml": "2c65cb1d3c53c3224c9e770d2d5d5265fc4d72d1757806a54756ca37f6a6cbe1",
+    "data/map/giessen/map.xml": "579acd0a70ec6bf6b8d25758d3962ec45e3a9a91644a137e83b351cfda1358f0",
+    "data/map/hof_gap/map.xml": "9fd712e5faa3f3f523cf81a7e612a3e47bdc2d555cd92bd677c779abbba30bad",
+    "data/map/lubeck/map.xml": "79c8862215dc6b3ca57918a7fb2bfe95e07186d2796a1917f1fb951b6c484190",
+    "data/map/north_german_plain/map.xml": "a36605a92f5d8c8561309d2ae1582cf8532b35d1086a46b8acb6a5a4cd5b705d",
+    "data/map/nuuk/map.xml": "15991a526d49277075e2ed5f37fc4c06396067777cbcc0b8a558d69dcf06cb0d",
+    "data/map/plzen_region/map.xml": "f3d729cfbfff0ad5bd79a091e4f5249d8951f05242617923690d7b6f43ea0488",
+    "data/map/south_east_finland/map.xml": "15c553599ec586b522387f95df72f151a046b2243874f5575efa719076f2a734",
+    "data/map/trelleborg/map.xml": "eb2bd8b7b85e2158456e411425a76ec6caa6616a3a8c9f20c020877e47b9c0d8"
+  },
+  "stock_database_xml": {
+    "data/database/default/aircraft.xml": "180c83c64cee977cf30520ca2064e5545bc08353e59a9f5beef30f3de6a52b05",
+    "data/database/default/ammunition.xml": "7558e7bb10d6082f2a655146cb57838e48590f20c982d7475e4524a9c3d948f5",
+    "data/database/default/eras.xml": "79a40e1becf032029b0beae06d89fe9315fca27d00dfb55595d78e7729ae7801",
+    "data/database/default/factions.xml": "bb3aed46df82f54c6a0017ae5bdb6f9cc9fba0ac0098a797469ee019ec14fb1d",
+    "data/database/default/flights.xml": "01a34fc9d6339a2153baca6b9e068851d52a51a45029982586af82a9bdb47022",
+    "data/database/default/formations.xml": "cc6a21bcf831ff44f831978154133f75ce17a4318258ca63eb881b8bd21fe4dc",
+    "data/database/default/resources_custom.xml": "2ece5f82c9050a52164f2848736a745454bb5e335ffed2d52fced28b83e35cf4",
+    "data/database/default/resources_custom_3d.xml": "72134f022df5109d45820d3a2b5278af9b4f74a2a701bf383c7277419f5382e9",
+    "data/database/default/units.xml": "e4b63c682e33da949f76a33e0e406c1f62cbc7da622a8d2fc6f24910b9a7e90f",
+    "data/database/default/weapons.xml": "b85c89882339887c36c752c7cbb69446ae444d8cd43d2965e2b49e803f8e50ce"
+  }
+}

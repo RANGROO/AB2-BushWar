@@ -1,0 +1,368 @@
+{
+  "schema": "research_recommendation_only",
+  "scope": [
+    "11",
+    "15"
+  ],
+  "numeric_status": "Conservative vanilla-calibrated game judgements, not historically measured percentages. Parent must verify native inheritance; apply once per resulting unit, never additive company+platoon duplication.",
+  "baseline": [
+    {
+      "faction_id": 11,
+      "name": "South Africa",
+      "training": 75,
+      "morale": 75,
+      "dates": "1965,1-1994,12; preserve every existing date section boundary",
+      "confidence": "moderate; specific cohort adjustment stronger than national numerical rank",
+      "rationale": "Generic selectable formations combine national service, permanent and citizen force personnel. British regular80 is not a universal SADF constant;75 keeps trained regular quality without assigning all conscripts an expert baseline. No automatic1977 increase because longer service not equal individual experience."
+    },
+    {
+      "faction_id": 15,
+      "name": "Rhodesia",
+      "training": 75,
+      "morale": 75,
+      "dates": "1965,1-1979,12; preserve every existing date section boundary",
+      "confidence": "moderate",
+      "rationale": "Professional regular cadre represented separately; baseline is not ethnic/political distinction. No December1979 collapse penalty or universal Fireforce command bonus."
+    }
+  ],
+  "command": {
+    "action": "retain",
+    "faction_ids": [
+      11,
+      15
+    ],
+    "commandDelay": 20,
+    "commandDelayMod": 20,
+    "reason": "Existing UK-like native values; sources demonstrate organisational practice but do not quantify engine delays. Root must verify exact native semantics before changing. Do not alter artillery fields."
+  },
+  "sources": [
+    {
+      "id": "GF",
+      "url": "https://sites.google.com/site/rhodesianguardforce/home/historic-overview",
+      "type": "participant compilation; sections explicitly credit Horst Schobesberger and former personnel",
+      "inspected": true,
+      "supports": "Professional HQ/depot core thinly spread in field; initially quantity over quality; recruit course extended to three months, no exact year stated.",
+      "limitation": "Partisan retrospective; unfinished date placeholders; not numerical morale measurement."
+    },
+    {
+      "id": "SF",
+      "url": "https://samilitaryhistory.org/13/c13febne.html",
+      "type": "published account of Stephan Fourie participant lecture",
+      "inspected": true,
+      "supports": "Selective Selous reconnaissance training, sustained independent small teams; identifies32 Battalion recce wing and SA Recces as analogous.",
+      "limitation": "Retrospective recollection; reject casualty-share claims as training calibration; contradictory17-week/17-day selection descriptions do not support exact duration."
+    },
+    {
+      "id": "NS",
+      "url": "https://www.saha.org.za/ecc25/timeline.htm",
+      "type": "archive of participant End Conscription Campaign history",
+      "inspected": true,
+      "supports": "1972 nine-to-twelve month national service;1977 two-year service;December1989 reduction to one year;1993 conscription abolition.",
+      "limitation": "Duration is not combat proficiency; nonreporting is not every deployed soldier morale; retain75 rather than invent step changes."
+    },
+    {
+      "id": "RAR",
+      "url": "https://www.armyupress.army.mil/Portals/7/combat-studies-institute/csi-books/ArtOfWar_RhodesianAfricanRifles.pdf",
+      "type": "US Army published historical study",
+      "inspected": false,
+      "supports": "Search identification only",
+      "limitation": "403 on direct retrieval; do not cite unseen pages as verified evidence."
+    }
+  ],
+  "groups": [
+    {
+      "faction_id": 11,
+      "cohort": "parachute",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "rationale": "SF; native British parachute calibration",
+      "dates": "Apply only within exact existing selector/date intersections; do not extend any unit availability.",
+      "formations": [
+        {
+          "id": 3650,
+          "name": "Parachute Infantry Platoon"
+        },
+        {
+          "id": 3652,
+          "name": "Parachute Infantry HQ"
+        },
+        {
+          "id": 3653,
+          "name": "Parachute Infantry HQ [R4]"
+        },
+        {
+          "id": 3685,
+          "name": "Parachute Infantry Platoon"
+        },
+        {
+          "id": 3686,
+          "name": "Parachute Infantry Platoon [R4]"
+        },
+        {
+          "id": 3713,
+          "name": "Parachute Infantry Platoon"
+        },
+        {
+          "id": 3714,
+          "name": "Parachute Infantry Platoon [R4]"
+        },
+        {
+          "id": 3731,
+          "name": "Parachute Infantry Platoon"
+        },
+        {
+          "id": 3732,
+          "name": "Parachute Infantry Platoon [R4]"
+        },
+        {
+          "id": 3799,
+          "name": "Parachute Infantry Company"
+        },
+        {
+          "id": 3800,
+          "name": "Parachute Infantry Company [R4]"
+        },
+        {
+          "id": 3810,
+          "name": "Parachute Infantry Company"
+        },
+        {
+          "id": 3811,
+          "name": "Parachute Infantry Company [R4]"
+        },
+        {
+          "id": 3815,
+          "name": "Parachute Infantry Company"
+        },
+        {
+          "id": 3825,
+          "name": "Parachute Infantry Company"
+        },
+        {
+          "id": 3826,
+          "name": "Parachute Infantry Company [R4]"
+        }
+      ]
+    },
+    {
+      "faction_id": 11,
+      "cohort": "recce",
+      "trainingMod": 10,
+      "moraleMod": 10,
+      "rationale": "SF; small selected reconnaissance cadre, no extra spotting/mechanics",
+      "dates": "Apply only within exact existing selector/date intersections; do not extend any unit availability.",
+      "formations": [
+        {
+          "id": 3774,
+          "name": "Recce Scout Section"
+        }
+      ]
+    },
+    {
+      "faction_id": 11,
+      "cohort": "32_battalion_recce",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "rationale": "SF; bounded reconnaissance-wing proxy rather than all32Battalion elite",
+      "dates": "Apply only within exact existing selector/date intersections; do not extend any unit availability.",
+      "formations": [
+        {
+          "id": 3775,
+          "name": "32 Battalion Scout Section"
+        }
+      ]
+    },
+    {
+      "faction_id": 15,
+      "cohort": "operational_regulars",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "rationale": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference",
+      "dates": "Apply only within exact existing selector/date intersections; do not extend any unit availability.",
+      "formations": [
+        {
+          "id": 3401,
+          "name": "RLI Fire Force Troop"
+        },
+        {
+          "id": 3405,
+          "name": "RAR Fire Force Platoon"
+        },
+        {
+          "id": 3406,
+          "name": "RAR HQ"
+        },
+        {
+          "id": 3431,
+          "name": "RLI Rifle Platoon"
+        },
+        {
+          "id": 3433,
+          "name": "RAR Rifle Platoon"
+        },
+        {
+          "id": 3443,
+          "name": "RLI 60mm Mortar Section"
+        },
+        {
+          "id": 3447,
+          "name": "RLI Assault Pioneer Troop"
+        },
+        {
+          "id": 3449,
+          "name": "RLI 88mm Rocket Launcher Team"
+        },
+        {
+          "id": 3457,
+          "name": "RLI RPG-7 Team"
+        },
+        {
+          "id": 3471,
+          "name": "Grey's Scouts Dismounted Reconnaissance Group"
+        },
+        {
+          "id": 3477,
+          "name": "MAP75 RLI Tactical Patrol"
+        },
+        {
+          "id": 3478,
+          "name": "MAP75 RLI Mounted HQ"
+        },
+        {
+          "id": 3480,
+          "name": "MAP45 RLI Tactical Patrol"
+        },
+        {
+          "id": 3481,
+          "name": "MAP45 RLI Mounted HQ"
+        },
+        {
+          "id": 3483,
+          "name": "RLI 81mm Short-Barrel Mortar Section"
+        },
+        {
+          "id": 3484,
+          "name": "RLI 81mm Long-Barrel Mortar Section"
+        },
+        {
+          "id": 3485,
+          "name": "RLI 81mm Long-Barrel Mortar Section"
+        },
+        {
+          "id": 4200,
+          "name": "RLI Rifle Company"
+        },
+        {
+          "id": 4201,
+          "name": "RAR Rifle Company"
+        },
+        {
+          "id": 4204,
+          "name": "RLI Scout Section"
+        },
+        {
+          "id": 4205,
+          "name": "RAR Rifle Section [mot.]"
+        },
+        {
+          "id": 4206,
+          "name": "RAR HQ [mot.]"
+        },
+        {
+          "id": 4207,
+          "name": "RAR Rifle Platoon [mot.]"
+        },
+        {
+          "id": 4208,
+          "name": "RAR Rifle Company [mot.]"
+        }
+      ]
+    },
+    {
+      "faction_id": 15,
+      "cohort": "territorial",
+      "trainingMod": -5,
+      "moraleMod": 0,
+      "rationale": "Reserve availability and shorter recurrent training; not every reservist inexperienced; modest vanilla Territorial analogue",
+      "dates": "Apply only within exact existing selector/date intersections; do not extend any unit availability.",
+      "formations": [
+        {
+          "id": 3409,
+          "name": "RR Patrol Platoon"
+        },
+        {
+          "id": 3410,
+          "name": "RR HQ"
+        },
+        {
+          "id": 3435,
+          "name": "RR Rifle Platoon"
+        },
+        {
+          "id": 4202,
+          "name": "RR Rifle Company"
+        }
+      ]
+    },
+    {
+      "faction_id": 15,
+      "cohort": "selected_specialists",
+      "trainingMod": 10,
+      "moraleMod": 10,
+      "rationale": "SF; SAS label/selection analogy moderate-low, Selous directly participant supported",
+      "dates": "Apply only within exact existing selector/date intersections; do not extend any unit availability.",
+      "formations": [
+        {
+          "id": 3450,
+          "name": "SAS RPG-7 Team"
+        },
+        {
+          "id": 3451,
+          "name": "SAS RPD Team"
+        },
+        {
+          "id": 3452,
+          "name": "SAS HQ"
+        },
+        {
+          "id": 3453,
+          "name": "SAS LMG Section"
+        },
+        {
+          "id": 3462,
+          "name": "Selous Scouts Reconnaissance Group"
+        }
+      ]
+    },
+    {
+      "faction_id": 15,
+      "cohort": "guard_force",
+      "trainingMod": -10,
+      "moraleMod": -5,
+      "rationale": "GF; limited field training, professional cadre prevents blanket militia rating",
+      "dates": "Apply only within exact existing selector/date intersections; do not extend any unit availability.",
+      "formations": [
+        {
+          "id": 3454,
+          "name": "Guard Force HQ"
+        },
+        {
+          "id": 3455,
+          "name": "Guard Force Stick"
+        },
+        {
+          "id": 3456,
+          "name": "Guard Force Rifle Group"
+        },
+        {
+          "id": 3467,
+          "name": "Guard Force Puma HQ"
+        },
+        {
+          "id": 3469,
+          "name": "Guard Force Puma Patrol"
+        }
+      ]
+    }
+  ]
+}

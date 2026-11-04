@@ -1,0 +1,106 @@
+{
+  "read_only": true,
+  "stock_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Armored Brigade 2\\data\\database\\default\\formations.xml",
+  "sha256": "cc6a21bcf831ff44f831978154133f75ce17a4318258ca63eb881b8bd21fe4dc",
+  "parse_note": "Stock contains bare TO&E ampersands. In-memory XML escaping only; original untouched.",
+  "examples": [
+    {
+      "id": 861,
+      "name": "Parachute Rifle Platoon",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "nested": {},
+      "has_positive_units": true
+    },
+    {
+      "id": 862,
+      "name": "Parachute Rifle Company",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "nested": {
+        "formation1Type": "871",
+        "formation2Type": "861",
+        "formation3Type": "861",
+        "formation4Type": "861"
+      },
+      "has_positive_units": false
+    },
+    {
+      "id": 871,
+      "name": "Parachute Rifle SHQ",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "nested": {},
+      "has_positive_units": true
+    },
+    {
+      "id": 839,
+      "name": "Territorial Infantry Platoon",
+      "trainingMod": -10,
+      "moraleMod": -10,
+      "nested": {},
+      "has_positive_units": true
+    },
+    {
+      "id": 840,
+      "name": "Territorial Infantry Company",
+      "trainingMod": -10,
+      "moraleMod": -10,
+      "nested": {
+        "formation1Type": "847",
+        "formation2Type": "839",
+        "formation3Type": "839",
+        "formation4Type": "839"
+      },
+      "has_positive_units": false
+    },
+    {
+      "id": 847,
+      "name": "Territorial Infantry HQ",
+      "trainingMod": -10,
+      "moraleMod": -10,
+      "nested": {},
+      "has_positive_units": true
+    },
+    {
+      "id": 288,
+      "name": "Airborne Infantry Platoon",
+      "trainingMod": 20,
+      "moraleMod": 10,
+      "nested": {},
+      "has_positive_units": true
+    },
+    {
+      "id": 289,
+      "name": "Airborne Infantry Company",
+      "trainingMod": 20,
+      "moraleMod": 10,
+      "nested": {
+        "formation1Type": "300",
+        "formation2Type": "288",
+        "formation3Type": "288",
+        "formation4Type": "288"
+      },
+      "has_positive_units": false
+    },
+    {
+      "id": 300,
+      "name": "Airborne Infantry HQ",
+      "trainingMod": 20,
+      "moraleMod": 10,
+      "nested": {},
+      "has_positive_units": true
+    }
+  ],
+  "policy": "Match native authoring: same cohort modifier on company, platoon, dedicated HQ. This is observed placement, not proof of additive/override runtime formula. Preserve generic shared HQ values; no cloning needed. No per-unit training fields invented.",
+  "command": {
+    "manual_pages": [
+      52,
+      53,
+      54
+    ],
+    "documented": "Faction and HQ contact affect delay; individual unit orders usually longer than formation orders; HQ improves morale and delay within radius; radio/voice/visual communication matters.",
+    "not_documented": "Exact commandDelay versus commandDelayMod formula or units and modifier inheritance not supplied by inspected manual/game guide.",
+    "recommendation": "Hold existing commandDelay/commandDelayMod; no arbitrary nationalist command speed bonus."
+  }
+}

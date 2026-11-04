@@ -1,0 +1,7 @@
+Seven-sided lowpoly mouth/outer-wall approximation, not measured Cuban launcher manufacture.4mm radial wall,3m length and original spacing remain donor/art estimates.
+Dark polygon10mm behind mouth is a depth illusion, not continuous bore/rifling or loaded rocket geometry. No per-tube firing animation claimed.
+Dedicated olive texture is a national art allocation, not an authenticated Cuban paint code or markings. Generated repaint is masked to original left-half metal; every other final-candidate texel is exact.
+35samples yaw-90..90/elevation0..55 give0launcher/hull finite-edge contacts; excludes coplanar/containment, blast clearance and engine firing interlocks.
+Mechanics,40ready rockets, ammunition, formations and dates unchanged. Native heavyHE effects/8km minimum, exact rocket mark and inferred retention throughMay1991 remain unqualified.
+No exposed personnel:menMax0 is inherited vehicle abstraction, not historical crew strength. No game launch or engine acceptance.
+Sources: https://www.granma.cu/granmad/secciones/50_granma-80_fidel/secretos_de_generales/art06.html ; https://www.gulflink.osd.mil/irfna/irfna_refs/n28en023/firespt.htm

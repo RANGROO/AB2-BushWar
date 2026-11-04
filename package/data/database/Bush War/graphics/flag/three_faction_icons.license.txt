@@ -1,0 +1,7 @@
+New faction menu icon provenance
+ZANLA: original vector menu icon based on documented ZANU green/gold/red/black concentric party design; exact pre1979 flag adoption unverified. This icon is not an authenticated field flag.
+ZIPRA: original simplified vector of the 1970s ZAPU/ZIPRA four-stripe/stars/Great Zimbabwe design, described in FOTW with 1976/1978 Flag Institute references. Emblem simplified at native46x28 scale. https://www.fotw.info/Flags/zw%7D.html
+FRELIMO: original vector tricolour/red triangle, supported by primary FRELIMO publication and historical descriptions. https://freedomarchives.org/Documents/Finder/DOC50_scans/50.mozambique.independence1975.pdf.pdf
+Mozambique1975: rasterized public-domain SVG https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique_(1975%E2%80%931983).svg ; artwork sources and revision preserved in task research archive.
+Mozambique1983: rasterized public-domain SVG https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg . Current flag fromMay1983; brief disputedApril1983 variation approximated by preceding flag at monthly scale.
+New menu images render to native46x28RGBA PNG, never renamed non-PNG data. No historical fabric colours or exact badge detail asserted.

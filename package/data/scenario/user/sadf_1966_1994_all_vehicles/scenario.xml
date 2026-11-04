@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+
+  <string name="engineVersion" value="1.574" />
+  <string name="databaseID" value="Bush War 1965-1994" />
+
+  <string name="ID" value="SADFALLTEST" />
+  <string name="name" value="Bush War - Vehicle Test (1994)" />
+  <string name="forceADescription" value="SADF vehicle test range\nJune 1994 - Fort Irwin desert\nCurrent diagnostic: one Ratel 20 mounted rifle section (R4/MAG) and one Impala Mk.II two-aircraft flight. Air allocation enabled for aircraft testing. Full roster loading remains under investigation. Development caveats are recorded in unit comments and project documentation." />
+  <string name="forceBDescription" value="USSR stock scout targets\nSynthetic1994 test range; opponent dates may require test fixtures." />
+  <string name="mapID" value="fort_irwin_ntc" />
+  <string name="mapLocation" value="1060,1700" />
+  <string name="objective1" value="38,46,OBJECTIVE" />
+  <string name="dummyRadius" value="20" />
+
+  <string name="forceASetupZone" value="0,0,22,64" />
+  <string name="forceBSetupZone" value="45,0,384,64" />
+
+  <string name="forceA" value="11" />
+  <string name="forceB" value="2" />
+  <string name="forceBPlayable" value="FALSE" />
+  <string name="dummyObjectives" value="0" />
+  <string name="destruction" value="0" />
+  <string name="water" value="0" />
+  <string name="terrain" value="4" />
+  <string name="mission" value="2" />
+  <string name="defence" value="0" />
+  <string name="forceAStartEdge" value="1" />
+  <string name="mapWidth" value="384" />
+  <string name="mapHeight" value="64" />
+  <string name="year" value="1994" />
+  <string name="month" value="6" />
+  <string name="forceAType" value="1" />
+  <string name="forceBType" value="1" />
+  <string name="forceATrainingMod" value="0" />
+  <string name="forceBTrainingMod" value="0" />
+  <string name="forceAMoraleMod" value="0" />
+  <string name="forceBMoraleMod" value="0" />
+  <string name="forceACounterAttack" value="50" />
+  <string name="forceBCounterAttack" value="50" />
+  <string name="victoryPoints" value="4561" />
+  <string name="groundCondition" value="0" />
+  <string name="weather" value="0" />
+  <string name="temperature" value="3" />
+  <string name="neutralUnits" value="3" />
+  <string name="timeOfDayCurrent" value="18000" />
+  <string name="forceAUnitSelection" value="1" />
+  <string name="forceBUnitSelection" value="1" />
+  <string name="airSuperiority" value="1" />
+  <string name="forceATerrain" value="4" />
+  <string name="forceBTerrain" value="4" />
+  <string name="windSpeed" value="-1" />
+
+  <string name="forceAAllocationRecon" value="5" />
+  <string name="forceAAllocationInfantry" value="10" />
+  <string name="forceAAllocationMech" value="70" />
+  <string name="forceAAllocationArmor" value="70" />
+  <string name="forceAAllocationSupport" value="15" />
+  <string name="forceAAllocationAir" value="30" />
+  <string name="forceBAllocationRecon" value="5" />
+  <string name="forceBAllocationInfantry" value="10" />
+  <string name="forceBAllocationMech" value="70" />
+  <string name="forceBAllocationArmor" value="70" />
+  <string name="forceBAllocationSupport" value="15" />
+  <string name="forceBAllocationAir" value="0" />
+
+  
+  <string name="forceAFormation1" value="50,Ratel Rifle Section,11,28,LINE,1,90,FALSE,FALSE" />
+  
+  
+  
+  <string name="forceBFormation2" value="446,Distant Artillery Range Scout,115,40,LINE,1,270,FALSE,FALSE" />
+  <string name="forceBFormation3" value="446,Rocket Range Scout,370,40,LINE,1,270,FALSE,FALSE" />
+  <string name="forceBFormation1" value="446,Dismounted Scout Section (Test Range),50,40,LINE,1,270,FALSE,FALSE" />
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <string name="forceAPlayerCharacter" value="0,0" />
+  <string name="forceBPlayerCharacter" value="0,0" />
+
+  <string name="forceAGuns" value="0" />
+  <string name="forceAMineTRPs" value="0" />
+  <string name="forceBGuns" value="0" />
+  <string name="forceBMineTRPs" value="0" />
+
+  <string name="forceAMinefields" value="0" />
+  <string name="forceAAntitank" value="0" />
+  <string name="forceAWire" value="0" />
+  <string name="forceAPillboxes" value="0" />
+  <string name="forceBMinefields" value="0" />
+  <string name="forceBAntitank" value="0" />
+  <string name="forceBWire" value="0" />
+  <string name="forceBPillboxes" value="0" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <string name="forceAFlight1" value="25" />
+<string name="forceAFormation2" value="89,Parachute Infantry Platoon [R4],16,36,LINE,1,90,FALSE,FALSE" />
+<string name="forceAFlight2" value="22" />
+<string name="forceAFlight3" value="22" />
+<string name="forceAFlight4" value="37" />
+</resources>

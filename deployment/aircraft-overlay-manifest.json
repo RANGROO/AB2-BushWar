@@ -1,0 +1,1711 @@
+{
+  "scope": "Current selected national aircraft overlays; no stock replacement",
+  "files": [
+    {
+      "source": "data/database/Bush War/graphics/3d/helicopter/za/za_alouette2_native_fixture.dae",
+      "sha256": "6e162eaab93377835f798d22df9360cd9ea3a0e040db8cdc7d1e1efa264f5d6d",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/za_alouette2_native_fixture.dae"
+    },
+    {
+      "source": "data/database/Bush War/graphics/3d/helicopter/za/za_alouette2_native_fixture_ds.png",
+      "sha256": "a86c2a4768748f60f8cd0700e71eab352a46b4dfac314b38b4714a395644b777",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/za_alouette2_native_fixture_ds.png"
+    },
+    {
+      "source": "data/database/Bush War/graphics/3d/helicopter/za/za_alouette2_native_fixture_n.png",
+      "sha256": "8733621ffa06ba515f67eea9466ad27af85c72d59de4aadd4f588825b76a61d8",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/za_alouette2_native_fixture_n.png"
+    },
+    {
+      "source": "data/database/Bush War/graphics/3d/helicopter/za/za_alouette2_native_fixture_s.png",
+      "sha256": "88652a5caf5171f3e4618f3b084c22d4595dfc69df318fa6b51ca841f7732b22",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/za_alouette2_native_fixture_s.png"
+    },
+    {
+      "source": "data/database/Bush War/graphics/3d/helicopter/za/za_alouette3_fixture.dae",
+      "sha256": "e384a1473c7e2e25995a3f55d2b17bb04555872d19f8b513f82f65786dc49316",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/za_alouette3_fixture.dae"
+    },
+    {
+      "source": "data/database/Bush War/graphics/3d/helicopter/za/za_alouette3_fixture_ds.png",
+      "sha256": "65f8fc7280cf8f53ca5f9921c8984384ba8417720ed8cec407d1f2371e37ac33",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/za_alouette3_fixture_ds.png"
+    },
+    {
+      "source": "data/database/Bush War/graphics/3d/helicopter/za/za_alouette3_fixture_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/za_alouette3_fixture_n.png"
+    },
+    {
+      "source": "data/database/Bush War/graphics/3d/helicopter/za/za_alouette3_fixture_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/za_alouette3_fixture_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/impala_mkii_guns_flight_fixture_v9.dae",
+      "sha256": "eab7c193896a356499b27f4b2cadb9f4f7dccfc5c876ed7a513d54ea77f9914a",
+      "target_relative_to_game": "data/graphics/3d/plane/za/impala_mkii_guns_flight_fixture_v9.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/impala_mkii_guns_flight_fixture_v9_ds.png",
+      "sha256": "4f88428a7e20d14b43108e6fccb6908d760e6ec29d908339f6828022dca3eea2",
+      "target_relative_to_game": "data/graphics/3d/plane/za/impala_mkii_guns_flight_fixture_v9_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/impala_mkii_guns_flight_fixture_v9_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/impala_mkii_guns_flight_fixture_v9_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/impala_mkii_guns_flight_fixture_v9_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/impala_mkii_guns_flight_fixture_v9_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_iiicz_early_finish_v9.dae",
+      "sha256": "35fc7d298b64901cc15edce986ddf294c7fbaf6f1d149c176fe588edac2fabba",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_iiicz_early_finish_v9.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_iiicz_early_finish_v9_ds.png",
+      "sha256": "7bcf4adc7beb6ea6d1c29e5cf32a0ea1ebc402ba5c7219b0ce4964af31b7b7c4",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_iiicz_early_finish_v9_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_iiicz_early_finish_v9_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_iiicz_early_finish_v9_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_iiicz_early_finish_v9_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_iiicz_early_finish_v9_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_iiiez_early_finish_v4.dae",
+      "sha256": "675fbc5c94b03b0a6a961a95a17ff11d3a9db8a2c46fb123527083b9bf0cec7e",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_iiiez_early_finish_v4.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_iiiez_early_finish_v4_ds.png",
+      "sha256": "cff4f3fa815218b1db20cd4222e5eb144ca2d09249f14c36b8154e1d75616650",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_iiiez_early_finish_v4_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_iiiez_early_finish_v4_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_iiiez_early_finish_v4_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_iiiez_early_finish_v4_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_iiiez_early_finish_v4_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_f1cz_photo_finish_v6.dae",
+      "sha256": "0413e3b3ac6f4b317c38caa0ab67a8420f25bbb835eee914c9846f8718d4eb46",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_f1cz_photo_finish_v6.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_f1cz_photo_finish_v6_ds.png",
+      "sha256": "4016b1deea1e19856b846510284c51f496b9fc74d76631155a8c0a525a7fa57a",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_f1cz_photo_finish_v6_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_f1cz_photo_finish_v6_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_f1cz_photo_finish_v6_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_f1cz_photo_finish_v6_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_f1cz_photo_finish_v6_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/cl13b_sabre6_v8.dae",
+      "sha256": "c5c3ae03ded20dfd88cfabde332b667cb68f025705255af03560b8eb86a20022",
+      "target_relative_to_game": "data/graphics/3d/plane/za/cl13b_sabre6_v8.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/cl13b_sabre6_v8_ds.png",
+      "sha256": "5b3c61de62b7c3910b8cde8f95ede128d98565fbaa70338310ed9a8474a7ecf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/cl13b_sabre6_v8_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/cl13b_sabre6_v8_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/cl13b_sabre6_v8_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/cl13b_sabre6_v8_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/cl13b_sabre6_v8_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_f1az_photo_finish_v3.dae",
+      "sha256": "2760c90528a14a09bd7fc79b48b4cbddc941066f48ef7fcd1537380e6c36a83a",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_f1az_photo_finish_v3.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_f1az_photo_finish_v3_ds.png",
+      "sha256": "2eed42c52c0ce40539fbffb3051767d01628f135409e703a41f5978b2f0affe5",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_f1az_photo_finish_v3_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_f1az_photo_finish_v3_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_f1az_photo_finish_v3_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mirage_f1az_photo_finish_v3_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mirage_f1az_photo_finish_v3_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/impala_mki_pod_fit_v3.dae",
+      "sha256": "09b8dd4fb07c74f3feb9d0be2d1c56c68fff306eb693319448224a9f902d6831",
+      "target_relative_to_game": "data/graphics/3d/plane/za/impala_mki_pod_fit_v3.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/impala_mki_pod_fit_v3_ds.png",
+      "sha256": "6b7e8ae41ef5c1c7830568a0890bc8b63f0a0f1f34ef55746653d77036767f09",
+      "target_relative_to_game": "data/graphics/3d/plane/za/impala_mki_pod_fit_v3_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/impala_mki_pod_fit_v3_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/impala_mki_pod_fit_v3_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/impala_mki_pod_fit_v3_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/impala_mki_pod_fit_v3_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/buccaneer_s50_v6.dae",
+      "sha256": "8d69a52b6e8314bfa50d370130edd409535f00539d5f6fa3371a9b35e5028d94",
+      "target_relative_to_game": "data/graphics/3d/plane/za/buccaneer_s50_v6.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/buccaneer_s50_v6_ds.png",
+      "sha256": "24426436157aacb4ba0bbe0cfa58edfee94c7798aa99947fb07f8303978b1859",
+      "target_relative_to_game": "data/graphics/3d/plane/za/buccaneer_s50_v6_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/buccaneer_s50_v6_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/buccaneer_s50_v6_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/buccaneer_s50_v6_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/buccaneer_s50_v6_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_vampire_early_guns_fixture_v5.dae",
+      "sha256": "5ea9d034c16cf2ee3caa3b396d723d62006c83f01f58a42690ed9461f496b45d",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_vampire_early_guns_fixture_v5.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_vampire_early_guns_fixture_v5_ds.png",
+      "sha256": "c11cc4df43e1d18c5b6343f43c5977c954539abd5ea38b29ccb97388858fdba9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_vampire_early_guns_fixture_v5_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_vampire_early_guns_fixture_v5_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_vampire_early_guns_fixture_v5_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_vampire_early_guns_fixture_v5_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_vampire_early_guns_fixture_v5_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/canberra_bi12_v3.dae",
+      "sha256": "bdd0adb9dea0dc2184cf25e1c6a847e13914cef5cf478577c88d206f59ccc353",
+      "target_relative_to_game": "data/graphics/3d/plane/za/canberra_bi12_v3.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/canberra_bi12_v3_ds.png",
+      "sha256": "6edab0cf0fddb5c13ac46d389b06929b6c2a47225025137a8799af10a1d7dd6e",
+      "target_relative_to_game": "data/graphics/3d/plane/za/canberra_bi12_v3_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/canberra_bi12_v3_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/canberra_bi12_v3_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/canberra_bi12_v3_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/canberra_bi12_v3_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/puma132_finish_v4.dae",
+      "sha256": "e49b051bbfd53c3ddc1d1da3c670cadeb23a40c7a2f1f9f5a9e0b1a6eb39e06d",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/puma132_finish_v4.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/puma132_finish_v4_ds.png",
+      "sha256": "27e509c3a3952227b8f71010093cc75a855ae2dfde6d1aa7ae8e8ff425a2f035",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/puma132_finish_v4_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/puma132_finish_v4_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/puma132_finish_v4_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/puma132_finish_v4_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/puma132_finish_v4_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_e_finish_v2.dae",
+      "sha256": "56fbd93d63e7bc3a428821f9b7ce319a1d86dd2609d6efceffac94fab4d66f22",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_e_finish_v2.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_e_finish_v2_ds.png",
+      "sha256": "c0bebf43bd01259c0df91e515adbbc693d9c0babe6224c3866ebc1846cbf4a12",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_e_finish_v2_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_e_finish_v2_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_e_finish_v2_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_e_finish_v2_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_e_finish_v2_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/puma178l_finish_v4.dae",
+      "sha256": "29d29766757e4cfe20eb9d85aeb63c7d482d7b4fcd365c94497839127be953f2",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/puma178l_finish_v4.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/puma178l_finish_v4_ds.png",
+      "sha256": "c4a77b760f2d63f9712e3ff54ade8af0cf85261f588c8b6302131cd33252afa8",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/puma178l_finish_v4_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/puma178l_finish_v4_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/puma178l_finish_v4_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/puma178l_finish_v4_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/puma178l_finish_v4_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_tandem_845_finish_v3.dae",
+      "sha256": "b5f5c756e14441fa99f2c0cd9b761b223c4214f135f4103edb67309c44e7929a",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_tandem_845_finish_v3.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_tandem_845_finish_v3_ds.png",
+      "sha256": "0896926ec2969e5b36c66ff1059600917fd08c30f155838f72d94404606e455b",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_tandem_845_finish_v3_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_tandem_845_finish_v3_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_tandem_845_finish_v3_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_tandem_845_finish_v3_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_tandem_845_finish_v3_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/alouette3_gun_v8_512.dae",
+      "sha256": "9fb00d397e1404541c6462bfca39f68f5e4397b011ebb5b30e8eb0c12dd6afbb",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/alouette3_gun_v8_512.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/alouette3_gun_v8_512_ds.png",
+      "sha256": "334c1700007e61feecf98ce5e2fccb9da7bc12d457def996137db45cbd6f27dc",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/alouette3_gun_v8_512_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/alouette3_gun_v8_512_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/alouette3_gun_v8_512_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/alouette3_gun_v8_512_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/alouette3_gun_v8_512_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/oryx1230_finish_v5.dae",
+      "sha256": "b74542230aece236329d47d27aeaae6ef03d1fdfd777035b5e86332647fedaf4",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/oryx1230_finish_v5.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/oryx1230_finish_v5_ds.png",
+      "sha256": "53b311923bdd8f38cb18313d6f76bce465955d1628b924aa7fc7aa4cd3646e9e",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/oryx1230_finish_v5_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/oryx1230_finish_v5_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/oryx1230_finish_v5_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/za/oryx1230_finish_v5_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/za/oryx1230_finish_v5_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_c_finish_v2.dae",
+      "sha256": "239ac2cd9adafb79790eb7b5d1b5ae9f3e6db0235cff4968f864483abfdd866a",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_c_finish_v2.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_c_finish_v2_ds.png",
+      "sha256": "adf13320f5a3355a55dd81124c2acf6250466ed5bb16a71b77379225e877183d",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_c_finish_v2_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_c_finish_v2_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_c_finish_v2_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_c_finish_v2_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_c_finish_v2_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/sa321l_v4.dae",
+      "sha256": "1604eae50ca1b44f24bdb05067b4a534f69a858edf2e434e911021e62dec0962",
+      "target_relative_to_game": "data/graphics/3d/plane/za/sa321l_v4.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/sa321l_v4_ds.png",
+      "sha256": "2e82aff39e886a82982aedcfb92723cf275a5e86fe11591f09ef7f9ca82a874b",
+      "target_relative_to_game": "data/graphics/3d/plane/za/sa321l_v4_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/sa321l_v4_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/sa321l_v4_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/sa321l_v4_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/sa321l_v4_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/xh1_v3.dae",
+      "sha256": "63165cd945c5f93165497ef870d1d1ac6dca7632852b1026acaa7f87e0eb87e1",
+      "target_relative_to_game": "data/graphics/3d/plane/za/xh1_v3.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/xh1_v3_ds.png",
+      "sha256": "59a0a099f52700fcc907ba06119ea2abd3c794caa62e0776922c80088c770d4a",
+      "target_relative_to_game": "data/graphics/3d/plane/za/xh1_v3_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/xh1_v3_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/xh1_v3_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/xh1_v3_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/xh1_v3_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/rooivalk_xdm_v2.dae",
+      "sha256": "7404e7981c378f58b8bdee7ac3b9176b52b36b733676aca60c859f8addfa105c",
+      "target_relative_to_game": "data/graphics/3d/plane/za/rooivalk_xdm_v2.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/rooivalk_xdm_v2_ds.png",
+      "sha256": "e4a1e2dc1519b3eeba02b169b15212bbbfcb8b45f53c6b24f4150a29356236a8",
+      "target_relative_to_game": "data/graphics/3d/plane/za/rooivalk_xdm_v2_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/rooivalk_xdm_v2_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/rooivalk_xdm_v2_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/rooivalk_xdm_v2_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/rooivalk_xdm_v2_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_844_upgraded_finish_v2.dae",
+      "sha256": "05ea269b443cb4b257e0ba03fc0485a998574dc5d56ada32e4ab9f07ec9ffd09",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_844_upgraded_finish_v2.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_844_upgraded_finish_v2_ds.png",
+      "sha256": "38f28157a397dd4ed792f66a4b1ec63cde799367e9a383cd9e6e8a4478c9d708",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_844_upgraded_finish_v2_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_844_upgraded_finish_v2_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_844_upgraded_finish_v2_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/mpla_cheetah_844_upgraded_finish_v2_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/mpla_cheetah_844_upgraded_finish_v2_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/xtp1_189_gun_fixture_v4.dae",
+      "sha256": "8bad7cbe9b385ae3cbe899e9042814beb101b29b22aa55c65ed76fc4447656c8",
+      "target_relative_to_game": "data/graphics/3d/plane/za/xtp1_189_gun_fixture_v4.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/xtp1_189_gun_fixture_v4_ds.png",
+      "sha256": "17b21f601787c383abc508eb35bd1c12f9218c2c2c25da3fe16f486dd67c61fe",
+      "target_relative_to_game": "data/graphics/3d/plane/za/xtp1_189_gun_fixture_v4_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/xtp1_189_gun_fixture_v4_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/xtp1_189_gun_fixture_v4_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/xtp1_189_gun_fixture_v4_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/xtp1_189_gun_fixture_v4_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/rooivalk_adm_v1.dae",
+      "sha256": "916d73e4c33854f007d197b2bf83e621a93744f8627b34fa870980d88a253c91",
+      "target_relative_to_game": "data/graphics/3d/plane/za/rooivalk_adm_v1.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/rooivalk_adm_v1_ds.png",
+      "sha256": "b633e1a14b8bcb2585c9a11cae261d5335bd2c7ee9c2bcde06ef648587330949",
+      "target_relative_to_game": "data/graphics/3d/plane/za/rooivalk_adm_v1_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/rooivalk_adm_v1_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/rooivalk_adm_v1_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/rooivalk_adm_v1_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/rooivalk_adm_v1_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/za_puma_h_shared_body_test.dae",
+      "sha256": "29d29766757e4cfe20eb9d85aeb63c7d482d7b4fcd365c94497839127be953f2",
+      "target_relative_to_game": "data/graphics/3d/plane/za/za_puma_h_shared_body_test.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/za_puma_h_shared_body_test_ds.png",
+      "sha256": "c4a77b760f2d63f9712e3ff54ade8af0cf85261f588c8b6302131cd33252afa8",
+      "target_relative_to_game": "data/graphics/3d/plane/za/za_puma_h_shared_body_test_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/za_puma_h_shared_body_test_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/za/za_puma_h_shared_body_test_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/za_puma_h_shared_body_test_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/za_puma_h_shared_body_test_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_260_rockets.dae",
+      "sha256": "9f16a12271815fd796972681b527dc079def08c517dd9f92b570685dc5a4df20",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_260_rockets.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_260_rockets_ds.png",
+      "sha256": "78c513772830e9b7bb163c4b6275ccf7d09ee0e1765a97da96b8681662e8970e",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_260_rockets_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_260_rockets_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_260_rockets_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_260_rockets_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_260_rockets_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_261_bombs.dae",
+      "sha256": "73613f7b169bf87b6da224832ceb88a21ac6532e3fc3aa3f3ccf328ba4f2551b",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_261_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_261_bombs_ds.png",
+      "sha256": "78c513772830e9b7bb163c4b6275ccf7d09ee0e1765a97da96b8681662e8970e",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_261_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_261_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_261_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_261_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_261_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_262_rockets.dae",
+      "sha256": "db21fc049d582232892657bcc205728f0b15cd35dbfc76870e5f973dea74f450",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_262_rockets.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_262_rockets_ds.png",
+      "sha256": "21c01d9cf4f97b65fffc59a4c34d5573fb6f956658c514c55c603f277121c9ed",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_262_rockets_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_262_rockets_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_262_rockets_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_262_rockets_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_262_rockets_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_263_bombs.dae",
+      "sha256": "8e0d37fdff6b36714a7c2fd909c877340660f2ba2219f8634a9f68c74a2320fc",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_263_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_263_bombs_ds.png",
+      "sha256": "21c01d9cf4f97b65fffc59a4c34d5573fb6f956658c514c55c603f277121c9ed",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_263_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_263_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_263_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_263_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_263_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_264_rockets.dae",
+      "sha256": "d46dade2472d0d46271486082698ea016d10a4432901862516be00a1140aaf83",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_264_rockets.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_264_rockets_ds.png",
+      "sha256": "03fb59a48f5e66bca4f0fb2cd474e5ad208daf93e3289efaf0a903f0b6c1fb89",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_264_rockets_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_264_rockets_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_264_rockets_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_264_rockets_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_264_rockets_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_265_bombs.dae",
+      "sha256": "420cf672a7ffd0cf7cd990167cf8b9ea00fd66170f3b6c07bc7c9a7f716dfa1f",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_265_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_265_bombs_ds.png",
+      "sha256": "03fb59a48f5e66bca4f0fb2cd474e5ad208daf93e3289efaf0a903f0b6c1fb89",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_265_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_265_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_265_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_265_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_265_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_266_rockets.dae",
+      "sha256": "d313d32d4219ead7a72fd3fb4873034ea6c6cf9858fe4c137716b2af262ef9ad",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_266_rockets.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_266_rockets_ds.png",
+      "sha256": "d5042042f981e5e33ab40f12623ef83df60caf40e0ecbf5c139e45b7622fc6f9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_266_rockets_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_266_rockets_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_266_rockets_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_266_rockets_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_266_rockets_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_267_bombs.dae",
+      "sha256": "7976d1d21c3659ac0e716b4c7e4b91b7d68065e5c2a7dbd575095824140ae9ac",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_267_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_267_bombs_ds.png",
+      "sha256": "d5042042f981e5e33ab40f12623ef83df60caf40e0ecbf5c139e45b7622fc6f9",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_267_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_267_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_267_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_267_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_267_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_268_rockets.dae",
+      "sha256": "17a050d1dda626bc4e6d8446661a38938d5640fc404389f20a7453e48713f471",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_268_rockets.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_268_rockets_ds.png",
+      "sha256": "9e80c1c36cfa1c6ac6cac21fddac83866c1dea677268f035b5adb5777b209a70",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_268_rockets_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_268_rockets_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_268_rockets_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_268_rockets_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_268_rockets_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_269_bombs.dae",
+      "sha256": "5ae659427722ed4d64ae7dd7ec95c155ee68a35232b07c8f18c207d54e4abe3e",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_269_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_269_bombs_ds.png",
+      "sha256": "9e80c1c36cfa1c6ac6cac21fddac83866c1dea677268f035b5adb5777b209a70",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_269_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_269_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_269_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_269_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_269_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_270_rockets.dae",
+      "sha256": "1d69f04a7e5c50cd78799f828a1657ec8ddc4d0105ca3dc70ed32ab0566f2ff7",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_270_rockets.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_270_rockets_ds.png",
+      "sha256": "2e7f5c9c69d56c51cd464fad4ec2946649189dadf79fe90ce2c295657cb17882",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_270_rockets_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_270_rockets_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_270_rockets_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_270_rockets_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_270_rockets_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_271_bombs.dae",
+      "sha256": "b7fd6bd51c8e7ca97a8d54e587ab535b2cc3cec62f30d2c8c676792e23c1e085",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_271_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_271_bombs_ds.png",
+      "sha256": "2e7f5c9c69d56c51cd464fad4ec2946649189dadf79fe90ce2c295657cb17882",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_271_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_271_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_271_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_271_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_271_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_272_bombs.dae",
+      "sha256": "18d34f3279b6ef3b8d448280dac9c25c424d801b7bdb7eca62c152b24963e73c",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_272_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_272_bombs_ds.png",
+      "sha256": "2e7f5c9c69d56c51cd464fad4ec2946649189dadf79fe90ce2c295657cb17882",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_272_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_272_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_272_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_272_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_272_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_273_bombs.dae",
+      "sha256": "7e3c8fe4d26a96b56215d1ce692add36f09dd334c828fd2fe87df9696f843f32",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_273_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_273_bombs_ds.png",
+      "sha256": "32d56cd7ef0f22b2eef271683d54255aae0d804c6dc1f2523b1697209e7835e0",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_273_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_273_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_273_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_273_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_273_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_274_bombs.dae",
+      "sha256": "d2320b1bf64a42c53279dfd37dc04ba508163fd07ddabc06fb21702301711b1b",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_274_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_274_bombs_ds.png",
+      "sha256": "8fbc2268fd12cf0c5025b1c3919a9862cb1e214ea4c76627817555cb1d188655",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_274_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_274_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_274_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_274_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_274_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_275_bombs.dae",
+      "sha256": "fad0e0137ebad46150f41485ed4aed591dabc27627ad20dd8feecfe4dea09326",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_275_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_275_bombs_ds.png",
+      "sha256": "55777373725ea5892dd7cb8fdeff297985a576e348aefb5e26b09a5afeb3dbd3",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_275_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_275_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_275_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_275_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_275_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_276_rockets.dae",
+      "sha256": "4388460f0cb63f145e9a868c6792db4bd194a5e80d1fd6176be0038bb5d609ad",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_276_rockets.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_276_rockets_ds.png",
+      "sha256": "b8dfd81e1e586647dd5bc845df09ab1b4933f9f002b9141d0978e47f3dfbb58c",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_276_rockets_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_276_rockets_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_276_rockets_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_276_rockets_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_276_rockets_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_277_bombs.dae",
+      "sha256": "b24190c1345e42151c864830380969f9dfca75ef2073674947bc026cb6432fd7",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_277_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_277_bombs_ds.png",
+      "sha256": "17a4afb7b57f1f2aa08d27351869233a1887cae965a50e66f758b9afa47b44b5",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_277_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_277_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_277_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_277_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_277_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_278_bombs.dae",
+      "sha256": "cd930dac55df469ca0743571abdb8f1b5738e7cf94a646da1eaf4942c5c95511",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_278_bombs.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_278_bombs_ds.png",
+      "sha256": "1663cf79b6956b078987fbedf3e1fd2257ce08bf0f53d8c6a5fe261366028b77",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_278_bombs_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_278_bombs_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_278_bombs_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_278_bombs_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_278_bombs_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_canberra_9plus2.dae",
+      "sha256": "a635f74158331987db661b223782076fba13d38fad59a6704f9a5819b121c7ca",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_canberra_9plus2.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_canberra_9plus2_ds.png",
+      "sha256": "00ec85a9a9d5bd4d3287562b2864d54d561fd3002c059871844955a1ca605ac4",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_canberra_9plus2_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_canberra_9plus2_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_canberra_9plus2_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/payloads/za_payload_canberra_9plus2_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/za/payloads/za_payload_canberra_9plus2_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_golf_candidate.dae",
+      "sha256": "3077e18f258aaddda0d9c5504827d6c6c93e7c6fa3fe8350dc10d83c04e0a817",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_golf_candidate.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_golf_candidate_ds.png",
+      "sha256": "d288a3b1bc49b9fc00c0cc32f67923600525a4aaed2dc289e655192da4d2c97d",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_golf_candidate_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_golf_candidate_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_golf_candidate_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_golf_candidate_s.png",
+      "sha256": "68e557e4ba86e08b474760669a0975a4193306bf1ae09c55f111b42f539ccee6",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_golf_candidate_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_fga9.dae",
+      "sha256": "57ecf1b05ea9833dee943a2af2ac4f90961a8c1fe633e09605357b3d5f3659c7",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_fga9.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_fga9_ds.png",
+      "sha256": "d288a3b1bc49b9fc00c0cc32f67923600525a4aaed2dc289e655192da4d2c97d",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_fga9_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_fga9_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_fga9_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_fga9_s.png",
+      "sha256": "68e557e4ba86e08b474760669a0975a4193306bf1ae09c55f111b42f539ccee6",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_fga9_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sneb36_candidate.dae",
+      "sha256": "b1d9dac48a29675831fa119ee9bdb34e0e0366a0fcdf597fc146118160f0859e",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sneb36_candidate.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sneb36_candidate_ds.png",
+      "sha256": "d288a3b1bc49b9fc00c0cc32f67923600525a4aaed2dc289e655192da4d2c97d",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sneb36_candidate_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sneb36_candidate_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sneb36_candidate_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sneb36_candidate_s.png",
+      "sha256": "68e557e4ba86e08b474760669a0975a4193306bf1ae09c55f111b42f539ccee6",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sneb36_candidate_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_frantan_candidate.dae",
+      "sha256": "b94bdd722692b02a95862e3f4e9ac5a0952193352cae89d7a706803ae9a0fc04",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_frantan_candidate.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_frantan_candidate_ds.png",
+      "sha256": "d288a3b1bc49b9fc00c0cc32f67923600525a4aaed2dc289e655192da4d2c97d",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_frantan_candidate_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_frantan_candidate_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_frantan_candidate_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_frantan_candidate_s.png",
+      "sha256": "68e557e4ba86e08b474760669a0975a4193306bf1ae09c55f111b42f539ccee6",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_frantan_candidate_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sneb_frantan_candidate.dae",
+      "sha256": "4a6f39fc5bf591b1246c8562323a9f4350b875fc5bbb2e67c0406d0550af2a0e",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sneb_frantan_candidate.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sneb_frantan_candidate_ds.png",
+      "sha256": "d288a3b1bc49b9fc00c0cc32f67923600525a4aaed2dc289e655192da4d2c97d",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sneb_frantan_candidate_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sneb_frantan_candidate_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sneb_frantan_candidate_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sneb_frantan_candidate_s.png",
+      "sha256": "68e557e4ba86e08b474760669a0975a4193306bf1ae09c55f111b42f539ccee6",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sneb_frantan_candidate_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_ub16_1983.dae",
+      "sha256": "37832a63eab34e293bdb1bd9f100148a3a8e14f19e6854f3137696959617d523",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_ub16_1983.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_ub16_1983_ds.png",
+      "sha256": "27edfa36da356f0de4673e888e3dea042ecfa93e6b7afe90c31f37de6280bb18",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_ub16_1983_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_ub16_1983_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_ub16_1983_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_ub16_1983_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_ub16_1983_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/vampire_fb52_cannon_candidate.dae",
+      "sha256": "4687a09febda1c02b5574916d5977bae3b996ce033236098779bffac8ed46d7a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/vampire_fb52_cannon_candidate.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/vampire_fb52_cannon_candidate_ds.png",
+      "sha256": "e9c8722fd067a0146e650a1c8f72575fe156b74a13225a00e022cd5641a5ad45",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/vampire_fb52_cannon_candidate_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/vampire_fb52_cannon_candidate_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/vampire_fb52_cannon_candidate_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/vampire_fb52_cannon_candidate_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/vampire_fb52_cannon_candidate_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig17f_cannon.dae",
+      "sha256": "01a69763acb084b37ebab2dd502c998768aaf6174429d7e33a12fa3c90f7386e",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig17f_cannon.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig17f_cannon_ds.png",
+      "sha256": "278a32b12f21ea10082da8fed6d6ad4c113b86e0d3729de65c35e0bd4b126aae",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig17f_cannon_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig17f_cannon_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig17f_cannon_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig17f_cannon_s.png",
+      "sha256": "67f49cc7ecd6133e72240a48b040f93c5c7d3fa56566cdbc50937290e6db3252",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig17f_cannon_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig23ml_fab500.dae",
+      "sha256": "19f18a9f3327ff20b6c1a5a7df05b655547acf9bcd3d7ee2c045fc6350f99959",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig23ml_fab500.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig23ml_fab500_ds.png",
+      "sha256": "05ca48d076530f58b6e8084d81dbab7116984ffee72d7c412885b39e413597cb",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig23ml_fab500_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig23ml_fab500_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig23ml_fab500_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig23ml_fab500_s.png",
+      "sha256": "0fae1a37f37db29c6fa0f993e202234ed4b0e1c827dc8fc126f932fe83b68a90",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig23ml_fab500_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_canberra_b2_tanked.dae",
+      "sha256": "da11db332f4b577d9f5ed7c6e4ed2dbf2de507115dd6c95ad6cd9c17d26707da",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_canberra_b2_tanked.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_canberra_b2_tanked_ds.png",
+      "sha256": "2016decc45a588af01d09d7bb105e7060beaecc1f857034683dcfdeeb3e05d8f",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_canberra_b2_tanked_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_canberra_b2_tanked_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_canberra_b2_tanked_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_canberra_b2_tanked_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_canberra_b2_tanked_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_twofrantan.dae",
+      "sha256": "0669ea752e8749196f850394fdd77e64aea5285088a95c49d3c489e332780c3f",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_twofrantan.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_twofrantan_ds.png",
+      "sha256": "b1e0e593d7d7781569a625966fbfe9b15740c3a95c5eb863e7b210a8512c0a56",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_twofrantan_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_twofrantan_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_twofrantan_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_twofrantan_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_twofrantan_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi8_transport.dae",
+      "sha256": "f2baa9cce0934f879f0c9e620309260edb583a01d0c5727d222aca1623eae426",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi8_transport.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi8_transport_ds.png",
+      "sha256": "c72c89f53ab14c7dffac4a78b91b194ab5a3760bbe1c69aaf9e1e4f21ac7eade",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi8_transport_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi8_transport_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi8_transport_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi8_transport_s.png",
+      "sha256": "a20db9ee74cf7a25ad188e622bd5ac9dbf5b3414b3f9650dfc7c4f123eb2bf46",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi8_transport_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig17f_250kg.dae",
+      "sha256": "bbf16fdb9e28e360ba44780f391107046fdda1e816da82f27709885ac70c1f4a",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig17f_250kg.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig17f_250kg_ds.png",
+      "sha256": "2e5d06eb4ecbf41a607ccbec2a84d93c480d87e9436805267f5d2c45e52558eb",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig17f_250kg_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig17f_250kg_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig17f_250kg_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/cu_mig17f_250kg_s.png",
+      "sha256": "67f49cc7ecd6133e72240a48b040f93c5c7d3fa56566cdbc50937290e6db3252",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/cu_mig17f_250kg_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_alouette_utility.dae",
+      "sha256": "e49b30692ab3abcf59d5de5addf4422aed5e3a0f5eeb0ddcc08241edf673c555",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_alouette_utility.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_alouette_utility_ds.png",
+      "sha256": "4b12b2aa960d6619dc67a763db2a27be9227af24a115bbe3e61f98868943dffc",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_alouette_utility_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_alouette_utility_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_alouette_utility_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_alouette_utility_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_alouette_utility_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_alouette3_gcar_1976.dae",
+      "sha256": "580b51b8634f0013d4b14eb6a3ae0668a6685b85a30530a77188fba4c44aeb84",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_alouette3_gcar_1976.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_alouette3_gcar_1976_ds.png",
+      "sha256": "07dc5704a5524f678fa4cbf25ac41867c9eb2dd4dc4dda91b73ad2dfcd02e5ca",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_alouette3_gcar_1976_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_alouette3_gcar_1976_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_alouette3_gcar_1976_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_alouette3_gcar_1976_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_alouette3_gcar_1976_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_alouette3_kcar_1975.dae",
+      "sha256": "aba09c4848620247da914a14ffccd4a9b1c4af81960bb835c61d0e1476ee57c0",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_alouette3_kcar_1975.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_alouette3_kcar_1975_ds.png",
+      "sha256": "07dc5704a5524f678fa4cbf25ac41867c9eb2dd4dc4dda91b73ad2dfcd02e5ca",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_alouette3_kcar_1975_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_alouette3_kcar_1975_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_alouette3_kcar_1975_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_alouette3_kcar_1975_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_alouette3_kcar_1975_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi8_armed.dae",
+      "sha256": "40e870b44c18101040860ed9e7a082b931bc001e8b2d0eb74f238f6a9d7f23c7",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi8_armed.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi8_armed_ds.png",
+      "sha256": "a8c4e0b20467d17737fcddc120649ddd1bb1385780b4816e02022a03d42c3b29",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi8_armed_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi8_armed_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi8_armed_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi8_armed_s.png",
+      "sha256": "a20db9ee74cf7a25ad188e622bd5ac9dbf5b3414b3f9650dfc7c4f123eb2bf46",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi8_armed_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_two250_1976.dae",
+      "sha256": "b7b0928bd8fe36d3cc455d8180c2d544d508464ca415d4f2961e43d5b8c9a2ee",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_two250_1976.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_two250_1976_ds.png",
+      "sha256": "10864d3f251002bb50c4233143cfcc37748f78d4bedd48d3582e417c830cba50",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_two250_1976_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_two250_1976_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_two250_1976_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_two250_1976_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_two250_1976_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi25_family_ub32.dae",
+      "sha256": "70eec552e319ba8a83f639462edf3b6485881faabb90ab3781bc3aeb3512508d",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi25_family_ub32.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi25_family_ub32_ds.png",
+      "sha256": "80c6e28996ce51b8952271e402b03149ceac48a401ee12e7c26c3dd2688d42b4",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi25_family_ub32_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi25_family_ub32_n.png",
+      "sha256": "bdda95e462df271d26213ca7959d336a9407940682ca42e5f278857fe438bc4b",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi25_family_ub32_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/cu/cu_mi25_family_ub32_s.png",
+      "sha256": "c591db232f165c6f584b4a01995c5ecb2af72862f8930e74f8443c47033013b7",
+      "target_relative_to_game": "data/graphics/3d/helicopter/cu/cu_mi25_family_ub32_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_s24_candidate.dae",
+      "sha256": "d3f3f1f98b5ef93d8e7228d8db30a6d45697db8b6347b80d2bb9273dba9ad21c",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_s24_candidate.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_s24_candidate_ds.png",
+      "sha256": "d6aab18ef0f0762eb8b1449d44459bf77376591fdfdb272f0c1b3d334d0f328e",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_s24_candidate_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_s24_candidate_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_s24_candidate_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_s24_candidate_s.png",
+      "sha256": "0fae1a37f37db29c6fa0f993e202234ed4b0e1c827dc8fc126f932fe83b68a90",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_s24_candidate_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_two1000_candidate.dae",
+      "sha256": "e65070fc18da164a60cb806f1aa4e32a851434dac8ada56cd873b477d5f5fcf5",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_two1000_candidate.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_two1000_candidate_ds.png",
+      "sha256": "d288a3b1bc49b9fc00c0cc32f67923600525a4aaed2dc289e655192da4d2c97d",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_two1000_candidate_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_two1000_candidate_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_two1000_candidate_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_two1000_candidate_s.png",
+      "sha256": "68e557e4ba86e08b474760669a0975a4193306bf1ae09c55f111b42f539ccee6",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_two1000_candidate_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sidewinder.dae",
+      "sha256": "48b5a3c4aec71d4d7caed8702d1c4264d1f69bbf7073e6b8a38573e3fe914426",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sidewinder.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sidewinder_ds.png",
+      "sha256": "f2b21c5bfbde13c3cee3ce4773a20285cc5c675383123137585a4977d80cb648",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sidewinder_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sidewinder_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sidewinder_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_sidewinder_s.png",
+      "sha256": "68e557e4ba86e08b474760669a0975a4193306bf1ae09c55f111b42f539ccee6",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_sidewinder_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_bell205_armed.dae",
+      "sha256": "a8f34642176de1f64cbc59c461fad02a010dee056c1e11504df33566039934aa",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_bell205_armed.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_bell205_armed_ds.png",
+      "sha256": "35a8a3ba974dc37420d812417807bfa833acdf0c549555d7d56e1914aff5acbd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_bell205_armed_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_bell205_armed_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_bell205_armed_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_bell205_armed_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_bell205_armed_s.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_gcar_single_mag.dae",
+      "sha256": "196e89911a2303063204d4734ff81241f8935596e3e06fa1de68e4495d3b616e",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_gcar_single_mag.dae"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_gcar_single_mag_ds.png",
+      "sha256": "c394c1f40436e6a28fbf1092bcda794899204142ce9477a1f42bfcfe0dcbb29c",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_gcar_single_mag_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_gcar_single_mag_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_gcar_single_mag_n.png"
+    },
+    {
+      "source": "data/graphics/3d/helicopter/rh/rh_gcar_single_mag_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/helicopter/rh/rh_gcar_single_mag_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_reported_mixed_1978.dae",
+      "sha256": "65f9d0bd374afb1561b59282918cb459f64f259de388f99e42b54237057bd041",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_reported_mixed_1978.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_reported_mixed_1978_ds.png",
+      "sha256": "d288a3b1bc49b9fc00c0cc32f67923600525a4aaed2dc289e655192da4d2c97d",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_reported_mixed_1978_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_reported_mixed_1978_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_reported_mixed_1978_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_reported_mixed_1978_s.png",
+      "sha256": "68e557e4ba86e08b474760669a0975a4193306bf1ae09c55f111b42f539ccee6",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_reported_mixed_1978_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_reported_he37_1976.dae",
+      "sha256": "4ddc17f602e7fb819cf3d391b7c11d9c9e99af7e8e38a631335c43bb7b217316",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_reported_he37_1976.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_reported_he37_1976_ds.png",
+      "sha256": "b1e0e593d7d7781569a625966fbfe9b15740c3a95c5eb863e7b210a8512c0a56",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_reported_he37_1976_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_reported_he37_1976_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_reported_he37_1976_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_reported_he37_1976_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_reported_he37_1976_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_mixed_aug1983.dae",
+      "sha256": "6f1468aabf4f690083d68e2231aed9f6bf76b1bcfdb43ffa5051a3ddf49324d9",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_mixed_aug1983.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_mixed_aug1983_ds.png",
+      "sha256": "f84d021a743d7fd57f8b7fbdc6ba66c9396b175b0a904807850eac0b9ea07922",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_mixed_aug1983_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_mixed_aug1983_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_mixed_aug1983_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21mf_mixed_aug1983_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21mf_mixed_aug1983_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21pf_ub16_1983.dae",
+      "sha256": "0e2f9c7ff132116dd06aab3ac93e717c3b786757fcefa93b7a3f2a3f18bc06ac",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21pf_ub16_1983.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21pf_ub16_1983_ds.png",
+      "sha256": "27edfa36da356f0de4673e888e3dea042ecfa93e6b7afe90c31f37de6280bb18",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21pf_ub16_1983_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21pf_ub16_1983_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21pf_ub16_1983_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21pf_ub16_1983_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21pf_ub16_1983_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_vampire_trainer_two_ports.dae",
+      "sha256": "6ca7372225f5d2f2e99bc607ef7ff343c4dde7ebfb462884f1a0d9de4018fb6e",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_vampire_trainer_two_ports.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_vampire_trainer_two_ports_ds.png",
+      "sha256": "e7759843ef44c5034177fa769b2ee65718c33fbd2fb48249d0f02081552d36f8",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_vampire_trainer_two_ports_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_vampire_trainer_two_ports_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_vampire_trainer_two_ports_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_vampire_trainer_two_ports_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_vampire_trainer_two_ports_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_initial_minigolf_1978.dae",
+      "sha256": "2d2d7babc5f2e5c13ea9da6cd7f81fb971c1532276fb871a70b50059fd2475b4",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_initial_minigolf_1978.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_initial_minigolf_1978_ds.png",
+      "sha256": "b1e0e593d7d7781569a625966fbfe9b15740c3a95c5eb863e7b210a8512c0a56",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_initial_minigolf_1978_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_initial_minigolf_1978_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_initial_minigolf_1978_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_initial_minigolf_1978_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_initial_minigolf_1978_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21bis_ub16_1983.dae",
+      "sha256": "21cb22db5c155a790523d8f110b9f3f0aaad945096ffb8e0c2f08dbe2ffa1ebf",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21bis_ub16_1983.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21bis_ub16_1983_ds.png",
+      "sha256": "27edfa36da356f0de4673e888e3dea042ecfa93e6b7afe90c31f37de6280bb18",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21bis_ub16_1983_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21bis_ub16_1983_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21bis_ub16_1983_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21bis_ub16_1983_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21bis_ub16_1983_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21bis_rbk_ub16_1983.dae",
+      "sha256": "afe7e9a9960d97b1a21ab2fd34da56bdef8314aaad2100da5ac5b5af175eacc9",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21bis_rbk_ub16_1983.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21bis_rbk_ub16_1983_ds.png",
+      "sha256": "f84d021a743d7fd57f8b7fbdc6ba66c9396b175b0a904807850eac0b9ea07922",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21bis_rbk_ub16_1983_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21bis_rbk_ub16_1983_n.png",
+      "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21bis_rbk_ub16_1983_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/cu/mig21bis_rbk_ub16_1983_s.png",
+      "sha256": "3dcff99d15e1698bb1a94ba06b3503da97135426a3a90e2526d89cfa6745e318",
+      "target_relative_to_game": "data/graphics/3d/plane/cu/mig21bis_rbk_ub16_1983_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_reported_mixed_he_frantan_1976.dae",
+      "sha256": "ae77e50dffa7353fdfefc5089e516a4829ace66aaa9f90d0dd147f8a3cd60358",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_reported_mixed_he_frantan_1976.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_reported_mixed_he_frantan_1976_ds.png",
+      "sha256": "b1e0e593d7d7781569a625966fbfe9b15740c3a95c5eb863e7b210a8512c0a56",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_reported_mixed_he_frantan_1976_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_reported_mixed_he_frantan_1976_n.png",
+      "sha256": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_reported_mixed_he_frantan_1976_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_reported_mixed_he_frantan_1976_s.png",
+      "sha256": "810a976ba2dbf8bb3576789fa3f4b034ea898e1ea01e555fb8114503c64dcdf9",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_reported_mixed_he_frantan_1976_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_vampire_mc250_v13.dae",
+      "sha256": "9c8dd294f56f03a2aa31e2ae3925cb940d4760269d3b1dc4c4127a6453278a89",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_vampire_mc250_v13.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_vampire_mc1000_v11.dae",
+      "sha256": "da11a4f35547dd658255b7551413c925dc583ab53eac8630f3b83d41b5db1314",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_vampire_mc1000_v11.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_vampire_rp3_v11.dae",
+      "sha256": "22c77f7a244a9c421bd9936ff4821d2ea1bcf8e070098bc830e9d5de4a755925",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_vampire_rp3_v11.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_rp3_mc250_1972.dae",
+      "sha256": "a845d76f280a2e469c9fac3e7df73d4e36d48aee8b73ce16dcbf0458fc578392",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_rp3_mc250_1972.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_rp3_mc250_1972_ds.png",
+      "sha256": "d288a3b1bc49b9fc00c0cc32f67923600525a4aaed2dc289e655192da4d2c97d",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_rp3_mc250_1972_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_rp3_mc250_1972_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_rp3_mc250_1972_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_hunter_rp3_mc250_1972_s.png",
+      "sha256": "68e557e4ba86e08b474760669a0975a4193306bf1ae09c55f111b42f539ccee6",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_hunter_rp3_mc250_1972_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/rh/rh_lynx_hornet_aug1979.dae",
+      "sha256": "768ca358940c768fc7a16df05a7c31cbcf5dd8dc4a4ba78aa3020b979753ddc7",
+      "target_relative_to_game": "data/graphics/3d/plane/rh/rh_lynx_hornet_aug1979.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_mig23_2fab500.dae",
+      "sha256": "37a654d9e9ace7d7561875e1536d40224e2dadcff49c75eeb451233168735278",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_mig23_2fab500.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_mig23_2fab500_ds.png",
+      "sha256": "05ca48d076530f58b6e8084d81dbab7116984ffee72d7c412885b39e413597cb",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_mig23_2fab500_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_mig23_2fab500_n.png",
+      "sha256": "809615a86eec47ff577ed1b16a581b0ce9b6c412b838f4e93f110f94fa68848a",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_mig23_2fab500_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_mig23_2fab500_s.png",
+      "sha256": "0fae1a37f37db29c6fa0f993e202234ed4b0e1c827dc8fc126f932fe83b68a90",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_mig23_2fab500_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_mig21mf_two250_ds.png",
+      "sha256": "b00390804178bf8230327f5ec163b9fd1079532fbb57935a36b679e3afbd16dc",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_mig21mf_two250_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_su22_four250.dae",
+      "sha256": "7dc39391b6937a79bbc56af33173dc70aa0a046ff001793dc14cf711c9194c4e",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_su22_four250.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_su22_four250_ds.png",
+      "sha256": "bf6248c4efb861c15f52d36abebf8f49260ec2a05ac8f5ca70cd560ab61e5ff0",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_su22_four250_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_su22_four250_n.png",
+      "sha256": "797dff9371d9395a7dfb9c439950c2d4b0ce133494741602dbd65d197e66332d",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_su22_four250_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_su22_four250_s.png",
+      "sha256": "af695f62a9392315573c324f3261b9840935e1407525ea07f79625168de5d90f",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_su22_four250_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_su25_four250.dae",
+      "sha256": "ea7133772de58297389111ca355d8878876155d0be30822a5cbad0f5924e4b33",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_su25_four250.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_su25_four250_ds.png",
+      "sha256": "44c3bdf4062ece74447a626294a7dc6e5eb354edff8121d00fcf2e4c4b1ec87a",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_su25_four250_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_su25_four250_n.png",
+      "sha256": "797dff9371d9395a7dfb9c439950c2d4b0ce133494741602dbd65d197e66332d",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_su25_four250_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/fapla/fapla_su25_four250_s.png",
+      "sha256": "da517316604c12fb1df6ccb5d82406826edaa0e929cb77cafbcd9d5bc580f2a8",
+      "target_relative_to_game": "data/graphics/3d/plane/fapla/fapla_su25_four250_s.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/za_buccaneer_early_two_gp.dae",
+      "sha256": "860b41ca52302458029e60c003e597c9f1ad6792550520f77a082a93a78ba446",
+      "target_relative_to_game": "data/graphics/3d/plane/za/za_buccaneer_early_two_gp.dae"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/za_buccaneer_early_two_gp_ds.png",
+      "sha256": "fb0a783533bedc3d84c21e7698a780319a95022eb5aa29fe17005bc2462c52ec",
+      "target_relative_to_game": "data/graphics/3d/plane/za/za_buccaneer_early_two_gp_ds.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/za_buccaneer_early_two_gp_n.png",
+      "sha256": "df7c17b7ced82380d709799ad45c6a5465a38bba80a52206f7d3c68dd7069812",
+      "target_relative_to_game": "data/graphics/3d/plane/za/za_buccaneer_early_two_gp_n.png"
+    },
+    {
+      "source": "data/graphics/3d/plane/za/za_buccaneer_early_two_gp_s.png",
+      "sha256": "ff7290d2799d83ef55bce77ab22ca46da856f7b0d69616086181ad1d85b2b31d",
+      "target_relative_to_game": "data/graphics/3d/plane/za/za_buccaneer_early_two_gp_s.png"
+    }
+  ],
+  "count": 341
+}

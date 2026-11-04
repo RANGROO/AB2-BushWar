@@ -1,0 +1,656 @@
+{
+  "schema": 1,
+  "status": "root_reviewed_implementation_policy",
+  "numeric_status": "Conservative vanilla-calibrated game judgements, not historical measurements.",
+  "command": "All existing commandDelay/commandDelayMod unchanged; exact native formula is unqualified.",
+  "modifier_authoring": "Observed vanilla same-cohort modifiers on company, platoon and dedicated HQ; shared generic HQ unchanged. No runtime inheritance claim.",
+  "date_precision": "Intersect every existing phase. UNITA1985 and FAPLA1985 are coarse mid1980s cohorts. Government June1991 disruption and January1994 recovery are bounded approximations, not exact nationwide readiness certification. Mozambique1985 reduction held because source text was not fully qualified.",
+  "factions": {
+    "11": {
+      "name": "South Africa",
+      "phases": [
+        {
+          "from": "1965,1",
+          "to": "1994,12",
+          "training": 75,
+          "morale": 75
+        }
+      ]
+    },
+    "12": {
+      "name": "Cuba",
+      "phases": [
+        {
+          "from": "1975,10",
+          "to": "1991,5",
+          "training": 70,
+          "morale": 70
+        }
+      ]
+    },
+    "13": {
+      "name": "UNITA / FALA",
+      "phases": [
+        {
+          "from": "1966,3",
+          "to": "1975,12",
+          "training": 55,
+          "morale": 65
+        },
+        {
+          "from": "1976,1",
+          "to": "1984,12",
+          "training": 60,
+          "morale": 65
+        },
+        {
+          "from": "1985,1",
+          "to": "1994,12",
+          "training": 65,
+          "morale": 65
+        }
+      ]
+    },
+    "14": {
+      "name": "MPLA / FAPLA",
+      "phases": [
+        {
+          "from": "1965,1",
+          "to": "1975,10",
+          "training": 55,
+          "morale": 65
+        },
+        {
+          "from": "1975,11",
+          "to": "1984,12",
+          "training": 60,
+          "morale": 65
+        },
+        {
+          "from": "1985,1",
+          "to": "1991,5",
+          "training": 65,
+          "morale": 65
+        },
+        {
+          "from": "1991,6",
+          "to": "1993,12",
+          "training": 60,
+          "morale": 60
+        },
+        {
+          "from": "1994,1",
+          "to": "1994,12",
+          "training": 65,
+          "morale": 65
+        }
+      ]
+    },
+    "15": {
+      "name": "Rhodesia",
+      "phases": [
+        {
+          "from": "1965,1",
+          "to": "1979,12",
+          "training": 75,
+          "morale": 75
+        }
+      ]
+    },
+    "16": {
+      "name": "ZANLA",
+      "phases": [
+        {
+          "from": "1966,4",
+          "to": "1979,12",
+          "training": 60,
+          "morale": 65
+        }
+      ]
+    },
+    "17": {
+      "name": "ZIPRA / ZAPU",
+      "phases": [
+        {
+          "from": "1965,1",
+          "to": "1979,12",
+          "training": 60,
+          "morale": 65
+        }
+      ]
+    },
+    "18": {
+      "name": "Mozambique / FRELIMO",
+      "phases": [
+        {
+          "from": "1965,1",
+          "to": "1994,12",
+          "training": 60,
+          "morale": 65
+        }
+      ]
+    }
+  },
+  "formations": {
+    "3650": {
+      "faction": 11,
+      "name": "Parachute Infantry Platoon",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3652": {
+      "faction": 11,
+      "name": "Parachute Infantry HQ",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3653": {
+      "faction": 11,
+      "name": "Parachute Infantry HQ [R4]",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3685": {
+      "faction": 11,
+      "name": "Parachute Infantry Platoon",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3686": {
+      "faction": 11,
+      "name": "Parachute Infantry Platoon [R4]",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3713": {
+      "faction": 11,
+      "name": "Parachute Infantry Platoon",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3714": {
+      "faction": 11,
+      "name": "Parachute Infantry Platoon [R4]",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3731": {
+      "faction": 11,
+      "name": "Parachute Infantry Platoon",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3732": {
+      "faction": 11,
+      "name": "Parachute Infantry Platoon [R4]",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3799": {
+      "faction": 11,
+      "name": "Parachute Infantry Company",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3800": {
+      "faction": 11,
+      "name": "Parachute Infantry Company [R4]",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3810": {
+      "faction": 11,
+      "name": "Parachute Infantry Company",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3811": {
+      "faction": 11,
+      "name": "Parachute Infantry Company [R4]",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3815": {
+      "faction": 11,
+      "name": "Parachute Infantry Company",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3825": {
+      "faction": 11,
+      "name": "Parachute Infantry Company",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3826": {
+      "faction": 11,
+      "name": "Parachute Infantry Company [R4]",
+      "trainingMod": 5,
+      "moraleMod": 10,
+      "cohort": "parachute",
+      "reason": "SF; native British parachute calibration"
+    },
+    "3774": {
+      "faction": 11,
+      "name": "Recce Scout Section",
+      "trainingMod": 10,
+      "moraleMod": 10,
+      "cohort": "recce",
+      "reason": "SF; small selected reconnaissance cadre, no extra spotting/mechanics"
+    },
+    "3775": {
+      "faction": 11,
+      "name": "32 Battalion Scout Section",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "32_battalion_recce",
+      "reason": "SF; bounded reconnaissance-wing proxy rather than all32Battalion elite"
+    },
+    "3401": {
+      "faction": 15,
+      "name": "RLI Fire Force Troop",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3405": {
+      "faction": 15,
+      "name": "RAR Fire Force Platoon",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3406": {
+      "faction": 15,
+      "name": "RAR HQ",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3431": {
+      "faction": 15,
+      "name": "RLI Rifle Platoon",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3433": {
+      "faction": 15,
+      "name": "RAR Rifle Platoon",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3443": {
+      "faction": 15,
+      "name": "RLI 60mm Mortar Section",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3447": {
+      "faction": 15,
+      "name": "RLI Assault Pioneer Troop",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3449": {
+      "faction": 15,
+      "name": "RLI 88mm Rocket Launcher Team",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3457": {
+      "faction": 15,
+      "name": "RLI RPG-7 Team",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3471": {
+      "faction": 15,
+      "name": "Grey's Scouts Dismounted Reconnaissance Group",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3477": {
+      "faction": 15,
+      "name": "MAP75 RLI Tactical Patrol",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3478": {
+      "faction": 15,
+      "name": "MAP75 RLI Mounted HQ",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3480": {
+      "faction": 15,
+      "name": "MAP45 RLI Tactical Patrol",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3481": {
+      "faction": 15,
+      "name": "MAP45 RLI Mounted HQ",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3483": {
+      "faction": 15,
+      "name": "RLI 81mm Short-Barrel Mortar Section",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3484": {
+      "faction": 15,
+      "name": "RLI 81mm Long-Barrel Mortar Section",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3485": {
+      "faction": 15,
+      "name": "RLI 81mm Long-Barrel Mortar Section",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "4200": {
+      "faction": 15,
+      "name": "RLI Rifle Company",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "4201": {
+      "faction": 15,
+      "name": "RAR Rifle Company",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "4204": {
+      "faction": 15,
+      "name": "RLI Scout Section",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "4205": {
+      "faction": 15,
+      "name": "RAR Rifle Section [mot.]",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "4206": {
+      "faction": 15,
+      "name": "RAR HQ [mot.]",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "4207": {
+      "faction": 15,
+      "name": "RAR Rifle Platoon [mot.]",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "4208": {
+      "faction": 15,
+      "name": "RAR Rifle Company [mot.]",
+      "trainingMod": 5,
+      "moraleMod": 5,
+      "cohort": "operational_regulars",
+      "reason": "Standing operational cadre; Fireforce is not an extra stacking bonus; Greys moderate-low generic reconnaissance cadre inference"
+    },
+    "3409": {
+      "faction": 15,
+      "name": "RR Patrol Platoon",
+      "trainingMod": -5,
+      "moraleMod": 0,
+      "cohort": "territorial",
+      "reason": "Reserve availability and shorter recurrent training; not every reservist inexperienced; modest vanilla Territorial analogue"
+    },
+    "3410": {
+      "faction": 15,
+      "name": "RR HQ",
+      "trainingMod": -5,
+      "moraleMod": 0,
+      "cohort": "territorial",
+      "reason": "Reserve availability and shorter recurrent training; not every reservist inexperienced; modest vanilla Territorial analogue"
+    },
+    "3435": {
+      "faction": 15,
+      "name": "RR Rifle Platoon",
+      "trainingMod": -5,
+      "moraleMod": 0,
+      "cohort": "territorial",
+      "reason": "Reserve availability and shorter recurrent training; not every reservist inexperienced; modest vanilla Territorial analogue"
+    },
+    "4202": {
+      "faction": 15,
+      "name": "RR Rifle Company",
+      "trainingMod": -5,
+      "moraleMod": 0,
+      "cohort": "territorial",
+      "reason": "Reserve availability and shorter recurrent training; not every reservist inexperienced; modest vanilla Territorial analogue"
+    },
+    "3450": {
+      "faction": 15,
+      "name": "SAS RPG-7 Team",
+      "trainingMod": 10,
+      "moraleMod": 10,
+      "cohort": "selected_specialists",
+      "reason": "SF; SAS label/selection analogy moderate-low, Selous directly participant supported"
+    },
+    "3451": {
+      "faction": 15,
+      "name": "SAS RPD Team",
+      "trainingMod": 10,
+      "moraleMod": 10,
+      "cohort": "selected_specialists",
+      "reason": "SF; SAS label/selection analogy moderate-low, Selous directly participant supported"
+    },
+    "3452": {
+      "faction": 15,
+      "name": "SAS HQ",
+      "trainingMod": 10,
+      "moraleMod": 10,
+      "cohort": "selected_specialists",
+      "reason": "SF; SAS label/selection analogy moderate-low, Selous directly participant supported"
+    },
+    "3453": {
+      "faction": 15,
+      "name": "SAS LMG Section",
+      "trainingMod": 10,
+      "moraleMod": 10,
+      "cohort": "selected_specialists",
+      "reason": "SF; SAS label/selection analogy moderate-low, Selous directly participant supported"
+    },
+    "3462": {
+      "faction": 15,
+      "name": "Selous Scouts Reconnaissance Group",
+      "trainingMod": 10,
+      "moraleMod": 10,
+      "cohort": "selected_specialists",
+      "reason": "SF; SAS label/selection analogy moderate-low, Selous directly participant supported"
+    },
+    "3454": {
+      "faction": 15,
+      "name": "Guard Force HQ",
+      "trainingMod": -10,
+      "moraleMod": -5,
+      "cohort": "guard_force",
+      "reason": "GF; limited field training, professional cadre prevents blanket militia rating"
+    },
+    "3455": {
+      "faction": 15,
+      "name": "Guard Force Stick",
+      "trainingMod": -10,
+      "moraleMod": -5,
+      "cohort": "guard_force",
+      "reason": "GF; limited field training, professional cadre prevents blanket militia rating"
+    },
+    "3456": {
+      "faction": 15,
+      "name": "Guard Force Rifle Group",
+      "trainingMod": -10,
+      "moraleMod": -5,
+      "cohort": "guard_force",
+      "reason": "GF; limited field training, professional cadre prevents blanket militia rating"
+    },
+    "3467": {
+      "faction": 15,
+      "name": "Guard Force Puma HQ",
+      "trainingMod": -10,
+      "moraleMod": -5,
+      "cohort": "guard_force",
+      "reason": "GF; limited field training, professional cadre prevents blanket militia rating"
+    },
+    "3469": {
+      "faction": 15,
+      "name": "Guard Force Puma Patrol",
+      "trainingMod": -10,
+      "moraleMod": -5,
+      "cohort": "guard_force",
+      "reason": "GF; limited field training, professional cadre prevents blanket militia rating"
+    },
+    "5240": {
+      "faction": 17,
+      "name": "ZIPRA Rifle Squad",
+      "trainingMod": 5,
+      "moraleMod": 0,
+      "cohort": "conventional_training",
+      "reason": "Reviewed existing cohort; native-sized distinction, no new selectors or date extension."
+    },
+    "5241": {
+      "faction": 17,
+      "name": "ZIPRA Rifle Platoon",
+      "trainingMod": 5,
+      "moraleMod": 0,
+      "cohort": "conventional_training",
+      "reason": "Reviewed existing cohort; native-sized distinction, no new selectors or date extension."
+    },
+    "5242": {
+      "faction": 17,
+      "name": "ZIPRA Rifle Company",
+      "trainingMod": 5,
+      "moraleMod": 0,
+      "cohort": "conventional_training",
+      "reason": "Reviewed existing cohort; native-sized distinction, no new selectors or date extension."
+    },
+    "5260": {
+      "faction": 17,
+      "name": "T-34-85 Tank HQ",
+      "trainingMod": 5,
+      "moraleMod": 0,
+      "cohort": "conventional_training",
+      "reason": "Reviewed existing cohort; native-sized distinction, no new selectors or date extension."
+    },
+    "5261": {
+      "faction": 17,
+      "name": "T-34-85 Tank Platoon",
+      "trainingMod": 5,
+      "moraleMod": 0,
+      "cohort": "conventional_training",
+      "reason": "Reviewed existing cohort; native-sized distinction, no new selectors or date extension."
+    },
+    "5262": {
+      "faction": 17,
+      "name": "BTR-152 Infantry HQ",
+      "trainingMod": 5,
+      "moraleMod": 0,
+      "cohort": "conventional_training",
+      "reason": "Reviewed existing cohort; native-sized distinction, no new selectors or date extension."
+    },
+    "5263": {
+      "faction": 17,
+      "name": "BTR-152 Infantry Platoon",
+      "trainingMod": 5,
+      "moraleMod": 0,
+      "cohort": "conventional_training",
+      "reason": "Reviewed existing cohort; native-sized distinction, no new selectors or date extension."
+    },
+    "5438": {
+      "faction": 18,
+      "name": "Militia Rifle Platoon",
+      "trainingMod": -5,
+      "moraleMod": 0,
+      "cohort": "territorial_militia",
+      "reason": "Reviewed existing cohort; native-sized distinction, no new selectors or date extension."
+    },
+    "5439": {
+      "faction": 18,
+      "name": "Militia Rifle Company",
+      "trainingMod": -5,
+      "moraleMod": 0,
+      "cohort": "territorial_militia",
+      "reason": "Reviewed existing cohort; native-sized distinction, no new selectors or date extension."
+    }
+  }
+}

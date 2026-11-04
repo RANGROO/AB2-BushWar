@@ -1,0 +1,23 @@
+[h1]Bush War 1965–1994[/h1]
+Bush War brings the conflicts of southern Africa to Armored Brigade II, with a focus on the fighting in Angola and the Rhodesian Bush War.
+
+I've aimed to keep the equipment, formations and dates grounded in historical research. I have done my best to recreate these military forces while fitting AB2's style of organisation. Don't expect these factions to perform well against the vanilla factions.
+
+South Africa also includes some experimental SADF vehicles, such as the TTD and Rooikat 105 (Wargame: Red Dragon classics).
+
+[h2]Eight factions[/h2]
+[list]
+[*]South Africa
+[*]Cuba
+[*]UNITA / FALA
+[*]MPLA / FAPLA / FAA
+[*]Rhodesia
+[*]ZANLA
+[*]ZIPRA / ZAPU
+[*]Mozambique / FRELIMO
+[/list]
+There are no missions or maps, just factions. I wanted to recreate some of the more famous battles, such as Cuito Cuanavale, but AB2 does not allow custom map assets.
+
+There may be some issues with unit models, as they are not 100% complete.
+
+Let me know in the comments about any issues or suggestions for historical accuracy.

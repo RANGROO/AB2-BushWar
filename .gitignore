@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+staging/
+*.tmp
+*.log
+.env
+.env.*
+# Account-specific Steam configuration stays outside the future repository.
+workshop/*upload*.vdf
+workshop/*metadata*.vdf

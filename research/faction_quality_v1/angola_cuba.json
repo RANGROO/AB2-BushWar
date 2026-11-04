@@ -1,0 +1,4268 @@
+{
+  "status": "research_recommendations_not_implemented",
+  "scope": [
+    12,
+    13,
+    14
+  ],
+  "database_hashes": {
+    "factions.xml": "dec7a102625cab87a2e839303a7a35f9052d80963c696efd98bd5bd6a233cb1a",
+    "formations.xml": "81a9cea7054fb37baf59c78566345b769c9546e95ad2edbbe4473e8fb4be8e6e"
+  },
+  "principles": [
+    "All exact numbers are conservative gameplay calibration, not historical measurements.",
+    "Keep all existing availability/model/flag chronology; intersect baseline phases with every old date section so no art or date fields are lost.",
+    "Do not add units, selectors, rename formations, or extend horizons.",
+    "No automatic annual training growth, no ethnicity/nationality-based morale scoring.",
+    "Parent company plus child modifiers must not stack; preserve zero parents absent proven engine semantics.",
+    "Arty fields combatPowerMod and costs are out of this bounded recommendation."
+  ],
+  "sources": [
+    {
+      "id": "FRUS1975",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76v28/d132",
+      "date": "1975-10-22",
+      "qualification": "Contemporary US assessment credits Cuban professional leadership in October1975; assessment not impartial measurement."
+    },
+    {
+      "id": "FRUS1976",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p1/d309",
+      "date": "1976-03-09 report, transmitted March13",
+      "qualification": "Distinct Cuban autonomous combat role by November1975 and trained counterinsurgency personnel; does not prove all soldiers elite."
+    },
+    {
+      "id": "LOC1989",
+      "url": "https://www.loc.gov/item/90003244/",
+      "pdf": "https://tile.loc.gov/storage-services/master/frd/frdcstdy/an/angolacountrystu00coll_0/angolacountrystu00coll_0.pdf",
+      "research_completed": "1989-02",
+      "pages": "printed229\u2013232,241\u2013242 (PDF261\u2013264,273\u2013274)",
+      "qualification": "Government synthesis explicitly warns partisan combat assessments; discusses formal Angolan training development and FALA four-tier training. Conflicting morale reports prevent universal morale bonus.",
+      "pdf_sha256": "347662189000fc54494ab39b40739ce4c1ea25eb2218ce289b5df4b1f4a1fe33"
+    },
+    {
+      "id": "HRW1994",
+      "url": "https://www.hrw.org/reports/archives/africa/ANGOLA94N.htm",
+      "date": "1994-11-08",
+      "qualification": "Fieldwork May\u2013June1994 plus1992/September1994 material; sections Failed Demobilization and Military Organization. Contrasts1991\u201392 cohesion and reports government army retraining1993\u201394. Does not give whole-army readiness statistics."
+    }
+  ],
+  "factions": [
+    {
+      "id": 12,
+      "name": "Cuba",
+      "existing_dates": [
+        {
+          "from": "1975,10",
+          "to": "1975,10",
+          "spriteFlag": "flag_cu",
+          "infantry3DModel": "cu_infantry_1975",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "0",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "0",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "October1975 limited Cuban CIR advisory/self-defence phase. Armedinstructors andmissioncommand are source-qualified, not regularrifleplatoons or Angolantrainees. FourpersonAKgroups are native tacticalallocation, not actualCIRstaffstrength. Inheritedoffmapgunpool androcketmissions disabled pending nationalbatteryqualification; separatelyqualifiedonmapattachments unchanged. Native monthincludes reported11Octoberarrival. Earlynationalplainclothing remains representative; no engineacceptance."
+        },
+        {
+          "from": "1975,11",
+          "to": "1975,11",
+          "spriteFlag": "flag_cu",
+          "infantry3DModel": "cu_infantry_1975",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Theatre coverage only; does not assert every formation or art configuration existed throughout this interval. National appearance remains a documented pending task. Off-map support audit: configured generic gun count 18, ammunition per gun 60, response delay, costs, TRPs and HE/smoke/illumination shares are inherited gameplay allowances, not authenticated national battery establishments or ammunition allotments. No separately named gun model, calibre or historical range is selected by these fields. HE rocket chance25percent is an inherited gameplay probability, not a historical ammunition share, launcher count or guaranteed BM21 mission. Cuban BM21 family is independently qualified; this profile does not recover exact rocket effects. Cluster shells/rockets and artillery mines remain disabled. This audit changes no mechanics, dates, formation selectors, aircraft or national personnel bindings; engine behavior remains unverified. RepresentativeNovember1975nationalappearanceallocation. Reusesexistingownedearlyplainclothing/fieldcap44posefamily. Granma2015DiazArguellesAngolaarchivephotoqualifies1975familyconditionally; precisephotoday/dye/webbing/universalissueunproved. ReneLefortLeMonde2December1975identifiesCubanAK47carriers; Novemberextensionisboundedartinference,notdatedallunitweaponqualification. Castro2December2005participantleadershipspeechsupportsNovemberCubancombatpresenceonly. Noequipment/unit/weapon/ammo/TOE/datebounds/formationchange. RPG/LMG/MANPADSpropsnotnewhistoricalqualification. Engineacceptancepending. October1975 theatre extension: Tareas175(2023)printed105 reports480CubanCIRinstructors arriving11October with own listed arms includingB10. Moderate retrospective operator/deployment inference, not inspected originalFARledger or exactcombatcrew. Existing1975plainolive/fieldcap nationalappearance represents this earliercontingent conditionally, not exactdatedkit. No existingformationselector broadened; inherited generic offmap gameplay settings unchanged, not new authenticated18gunbattery claim."
+        },
+        {
+          "from": "1975,12",
+          "to": "1975,12",
+          "spriteFlag": "flag_cu",
+          "infantry3DModel": "cu_infantry_1975",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Theatre coverage only; does not assert every formation or art configuration existed throughout this interval. National appearance remains a documented pending task. Off-map support audit: configured generic gun count 18, ammunition per gun 60, response delay, costs, TRPs and HE/smoke/illumination shares are inherited gameplay allowances, not authenticated national battery establishments or ammunition allotments. No separately named gun model, calibre or historical range is selected by these fields. HE rocket chance25percent is an inherited gameplay probability, not a historical ammunition share, launcher count or guaranteed BM21 mission. Cuban BM21 family is independently qualified; this profile does not recover exact rocket effects. Cluster shells/rockets and artillery mines remain disabled. This audit changes no mechanics, dates, formation selectors, aircraft or national personnel bindings; engine behavior remains unverified. December1975boundednationalmovingappearanceallocation. ReneLefortLeMonde2December1975contemporaryreportdescribesCubanAK47carriers;GranmaDiazArguellesAngolaarchivephoto1975upperboundsupportsgenericpeakedcap/plainworkingclothing. Ownaliasreusesverified44nationalposes/atlasbytes. Dye/webbing/pouch/belt/capproportionsareartproxies,notexactdatednationalkit/universalissue. Noequipment/weapon/ammo/TOE/bonuschange. ExistingRPG7/LMGmechanicalrosterqualificationremainsopen;MANPADSposenotpurchaseselectableDecember1975. Factiononefamilycannotrepresentallconcurrentmixedweapons/unituniforms. November1975/1988-91personnelstillseparatequeue;1976-77nationalappearanceallocationhasitsowndatesection. Noengineacceptance."
+        },
+        {
+          "from": "1976,1",
+          "to": "1977,12",
+          "spriteFlag": "flag_cu",
+          "infantry3DModel": "cu_infantry_1976",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Theatre coverage only; does not assert every formation or art configuration existed throughout this interval. National appearance remains a documented pending task. Off-map support audit: configured generic gun count 18, ammunition per gun 60, response delay, costs, TRPs and HE/smoke/illumination shares are inherited gameplay allowances, not authenticated national battery establishments or ammunition allotments. No separately named gun model, calibre or historical range is selected by these fields. HE rocket chance25percent is an inherited gameplay probability, not a historical ammunition share, launcher count or guaranteed BM21 mission. Cuban BM21 family is independently qualified; this profile does not recover exact rocket effects. Cluster shells/rockets and artillery mines remain disabled. This audit changes no mechanics, dates, formation selectors, aircraft or national personnel bindings; engine behavior remains unverified. Representative national moving appearance allocation for 1976-77. Cuba Militaria directly examines the simpler field garment attributed to 1976-1988; Angola 1975 archival photograph supports the generic cap/plain clothing family. Contemporary December1975 Cuban AK47 report and uncorroborated late1977 participant equipment account are contextual references, not universal issue proof. Reuses owned 44-pose national family with no new equipment or combat values. Exact theatre garment introduction, dye, belt, pouch and specialist props remain unaccepted proxies; concurrent mixed weapons cannot be represented by one faction family. Neither January1976 nor January1978 is a verified historical clothing change. No engine acceptance."
+        },
+        {
+          "from": "1978,1",
+          "to": "1987,12",
+          "spriteFlag": "flag_cu",
+          "infantry3DModel": "cu_infantry_1978",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Cuban national moving-personnel appearance allocation for1978-1987 within collector-attributed1976-1988 clothing. Jan1978 is a conservative graphical allocation informed by a self-identified participant account of late1977 AK/RPK/RPG7 equipment; not a verified universal issue or introduction date.44 native poses, plain olive cap/clothing, canvas magazine pouch and coated-cotton belt/buckle approximations. Native unit weapons, ammunition, morale, artillery settings, formations and dates remain unchanged gameplay proxies. Earlier mixed arms and later clothing remain open; no engine acceptance. Off-map support audit: configured generic gun count 18, ammunition per gun 60, response delay, costs, TRPs and HE/smoke/illumination shares are inherited gameplay allowances, not authenticated national battery establishments or ammunition allotments. No separately named gun model, calibre or historical range is selected by these fields. HE rocket chance25percent is an inherited gameplay probability, not a historical ammunition share, launcher count or guaranteed BM21 mission. Cuban BM21 family is independently qualified; this profile does not recover exact rocket effects. Cluster shells/rockets and artillery mines remain disabled. This audit changes no mechanics, dates, formation selectors, aircraft or national personnel bindings; engine behavior remains unverified."
+        },
+        {
+          "from": "1988,1",
+          "to": "1991,5",
+          "spriteFlag": "flag_cu",
+          "infantry3DModel": "cu_infantry_1988",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Theatre coverage only; does not assert every formation or art configuration existed throughout this interval. National appearance remains a documented pending task. Off-map support audit: configured generic gun count 18, ammunition per gun 60, response delay, costs, TRPs and HE/smoke/illumination shares are inherited gameplay allowances, not authenticated national battery establishments or ammunition allotments. No separately named gun model, calibre or historical range is selected by these fields. HE rocket chance25percent is an inherited gameplay probability, not a historical ammunition share, launcher count or guaranteed BM21 mission. Cuban BM21 family is independently qualified; this profile does not recover exact rocket effects. Cluster shells/rockets and artillery mines remain disabled. This audit changes no mechanics, dates, formation selectors, aircraft or national personnel bindings; engine behavior remains unverified. Representative late Cuban theatre moving appearance: inspected Pascal Guyot/AFP51393170 dated29February1988 shows camouflage shirts, mostly plain trousers and mixed headgear/load carriage. Own44-pose cu_infantry_1988 family selects an original approximate pattern and peaked field-cap option, not a named pattern/dye or universal kit. Existing1988-1991 interval is an appearance allocation, not verified January introduction or universal retention. Two-breast-pocket shirt/plain trousers follow this theatre reference rather than unqualified collector four-pocket/cargo default. Existing national pouch/belt/role-prop and grounding limits remain; no new weapons/ammunition/TOE/bonuses/formation changes. No engine acceptance."
+        }
+      ],
+      "positive_roots": [
+        {
+          "selector": "formation1",
+          "value": "3100,1980,1,1991,5,100"
+        },
+        {
+          "selector": "formation2",
+          "value": "3101,1980,1,1991,5,100"
+        },
+        {
+          "selector": "formation3",
+          "value": "3103,1988,1,1991,5,100"
+        },
+        {
+          "selector": "formation4",
+          "value": "3104,1988,1,1991,5,100"
+        },
+        {
+          "selector": "formation5",
+          "value": "3106,1975,11,1991,5,100"
+        },
+        {
+          "selector": "formation6",
+          "value": "3107,1975,11,1991,5,100"
+        },
+        {
+          "selector": "formation7",
+          "value": "3123,1978,5,1986,12,100"
+        },
+        {
+          "selector": "formation8",
+          "value": "3125,1978,5,1979,12,100"
+        },
+        {
+          "selector": "formation9",
+          "value": "3126,1978,5,1979,12,100"
+        },
+        {
+          "selector": "formation10",
+          "value": "3156,1976,1,1977,12,100"
+        },
+        {
+          "selector": "formation11",
+          "value": "3132,1975,11,1991,5,100"
+        },
+        {
+          "selector": "formation12",
+          "value": "3133,1978,1,1987,12,100"
+        },
+        {
+          "selector": "formation13",
+          "value": "3130,1988,1,1991,5,100"
+        },
+        {
+          "selector": "formation14",
+          "value": "3137,1983,8,1991,5,100"
+        },
+        {
+          "selector": "formation15",
+          "value": "3139,1983,8,1991,5,100"
+        },
+        {
+          "selector": "formation16",
+          "value": "3140,1983,8,1991,5,100"
+        },
+        {
+          "selector": "formation17",
+          "value": "3141,1983,8,1991,5,100"
+        },
+        {
+          "selector": "formation18",
+          "value": "3142,1983,8,1991,5,100"
+        },
+        {
+          "selector": "formation19",
+          "value": "3143,1987,12,1991,5,100"
+        },
+        {
+          "selector": "formation20",
+          "value": "3145,1987,12,1991,5,100"
+        },
+        {
+          "selector": "formation21",
+          "value": "3147,1981,1,1986,12,100"
+        },
+        {
+          "selector": "formation22",
+          "value": "3150,1987,12,1991,5,100"
+        },
+        {
+          "selector": "formation23",
+          "value": "3148,1987,12,1991,5,100"
+        },
+        {
+          "selector": "formation24",
+          "value": "3152,1976,5,1976,5,100"
+        },
+        {
+          "selector": "formation25",
+          "value": "3153,1980,1,1991,5,100"
+        },
+        {
+          "selector": "formation26",
+          "value": "3154,1988,6,1988,6,100"
+        },
+        {
+          "selector": "formation27",
+          "value": "3155,1976,1,1976,12,100"
+        },
+        {
+          "selector": "formation28",
+          "value": "3156,1975,11,1975,12,100"
+        },
+        {
+          "selector": "formation29",
+          "value": "3109,1975,10,1977,12,100"
+        },
+        {
+          "selector": "formation30",
+          "value": "3162,1988,6,1988,6,100"
+        },
+        {
+          "selector": "formation31",
+          "value": "3173,1983,8,1991,5,100"
+        },
+        {
+          "selector": "formation32",
+          "value": "3174,1975,12,1975,12,100"
+        },
+        {
+          "selector": "formation33",
+          "value": "3175,1983,8,1983,8,100"
+        },
+        {
+          "selector": "formation34",
+          "value": "3176,1975,10,1975,10,100"
+        },
+        {
+          "selector": "formation35",
+          "value": "3170,1975,11,1975,11,100"
+        },
+        {
+          "selector": "formation36",
+          "value": "3177,1975,10,1975,10,100"
+        },
+        {
+          "selector": "formation37",
+          "value": "3177,1978,5,1979,12,100"
+        },
+        {
+          "selector": "formation38",
+          "value": "3179,1978,5,1986,12,100"
+        },
+        {
+          "selector": "formation39",
+          "value": "3180,1975,10,1975,10,100"
+        },
+        {
+          "selector": "formation40",
+          "value": "3181,1975,10,1975,10,100"
+        },
+        {
+          "selector": "formation41",
+          "value": "3152,1980,1,1991,5,100"
+        },
+        {
+          "selector": "formation42",
+          "value": "3183,1983,8,1991,5,100"
+        },
+        {
+          "selector": "formation43",
+          "value": "3184,1977,5,1991,5,100"
+        },
+        {
+          "selector": "formation44",
+          "value": "3185,1977,5,1991,5,100"
+        },
+        {
+          "selector": "formation45",
+          "value": "3186,1988,6,1991,5,100"
+        },
+        {
+          "selector": "formation46",
+          "value": "3187,1988,6,1991,5,100"
+        },
+        {
+          "selector": "formation47",
+          "value": "3188,1977,1,1991,5,100"
+        },
+        {
+          "selector": "formation48",
+          "value": "3189,1977,1,1991,5,100"
+        },
+        {
+          "selector": "formation49",
+          "value": "3191,1975,10,1975,12,100"
+        },
+        {
+          "selector": "formation50",
+          "value": "4100,1975,11,1991,5,100"
+        },
+        {
+          "selector": "formation51",
+          "value": "4101,1978,5,1979,12,100"
+        },
+        {
+          "selector": "formation52",
+          "value": "4102,1978,5,1986,12,100"
+        },
+        {
+          "selector": "formation53",
+          "value": "4103,1977,1,1991,5,100"
+        },
+        {
+          "selector": "formation54",
+          "value": "4104,1980,1,1991,5,100"
+        },
+        {
+          "selector": "formation55",
+          "value": "4105,1988,1,1991,5,100"
+        },
+        {
+          "selector": "formation56",
+          "value": "4106,1980,1,1991,5,100"
+        },
+        {
+          "selector": "formation57",
+          "value": "4107,1988,6,1991,5,100"
+        },
+        {
+          "selector": "formation58",
+          "value": "4108,1975,11,1991,5,100"
+        },
+        {
+          "selector": "formation59",
+          "value": "4109,1975,10,1991,5,100"
+        },
+        {
+          "selector": "formation60",
+          "value": "4110,1975,11,1991,5,100"
+        },
+        {
+          "selector": "formation61",
+          "value": "4111,1975,11,1991,5,100"
+        }
+      ],
+      "reachable_formations": [
+        {
+          "id": 3100,
+          "name": "T-55 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3101,
+          "name": "T-55 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3103,
+          "name": "T-62 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3104,
+          "name": "T-62 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3106,
+          "name": "Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3107,
+          "name": "Rifle HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3109,
+          "name": "Cuban RPG-2 Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3123,
+          "name": "T-34-85 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3125,
+          "name": "BTR-152 Mechanized Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3126,
+          "name": "BTR-152 Mechanized HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3130,
+          "name": "120mm Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3132,
+          "name": "BM-21 Rocket Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3133,
+          "name": "120mm Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3137,
+          "name": "82mm Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3139,
+          "name": "Strela-2M Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3140,
+          "name": "Strela-2M Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3141,
+          "name": "BRDM-2 Recon Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3142,
+          "name": "BRDM-2 Recon Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3143,
+          "name": "ZSU-23-4 SP AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3145,
+          "name": "D-30 Howitzer Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3147,
+          "name": "SU-100 AT Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3148,
+          "name": "ZU-23-2 AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3150,
+          "name": "M-46 Field Gun Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3152,
+          "name": "BTR-60PB Command HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3153,
+          "name": "BTR-60PB Mechanized Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3154,
+          "name": "BMP-1 Recon Patrol",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3155,
+          "name": "PT-76 Recon Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3156,
+          "name": "120mm Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3160,
+          "name": "SA-6 Control HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3161,
+          "name": "SA-6 SAM Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3162,
+          "name": "SA-6 SAM Battery",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3160,
+            3161,
+            3161
+          ]
+        },
+        {
+          "id": 3170,
+          "name": "M-30 Howitzer Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3173,
+          "name": "PKM Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3174,
+          "name": "Sagger Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3175,
+          "name": "75mm Recoilless Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3176,
+          "name": "CIR B-10 Recoilless Attachment",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3177,
+          "name": "ZPU-4 AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3179,
+          "name": "T-34-85 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3180,
+          "name": "CIR Armed Instructor Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3181,
+          "name": "CIR Mission Command",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3183,
+          "name": "RPD Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3184,
+          "name": "PT-76 Recon Pair",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3185,
+          "name": "PT-76 Recon HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3186,
+          "name": "BMP-1 Mounted Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3187,
+          "name": "BMP-1 Mounted HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3188,
+          "name": "T-54 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3189,
+          "name": "T-54 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3191,
+          "name": "CIR 76mm Gun Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 4100,
+          "name": "Rifle Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3107,
+            3106,
+            3106,
+            3106
+          ]
+        },
+        {
+          "id": 4101,
+          "name": "BTR-152 Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3126,
+            3125,
+            3125,
+            3125
+          ]
+        },
+        {
+          "id": 4102,
+          "name": "T-34-85 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3179,
+            3123,
+            3123,
+            3123
+          ]
+        },
+        {
+          "id": 4103,
+          "name": "T-54 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3189,
+            3188,
+            3188,
+            3188
+          ]
+        },
+        {
+          "id": 4104,
+          "name": "T-55 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3101,
+            3100,
+            3100,
+            3100
+          ]
+        },
+        {
+          "id": 4105,
+          "name": "T-62 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3104,
+            3103,
+            3103,
+            3103
+          ]
+        },
+        {
+          "id": 4106,
+          "name": "BTR-60PB Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3152,
+            3153,
+            3153,
+            3153
+          ]
+        },
+        {
+          "id": 4107,
+          "name": "BMP-1 Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3187,
+            3186,
+            3186,
+            3186
+          ]
+        },
+        {
+          "id": 4108,
+          "name": "Cuban RPG-7 Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 4109,
+          "name": "Scout Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 4110,
+          "name": "Sapper Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 4111,
+          "name": "Sapper Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        }
+      ],
+      "recommended_baselines": [
+        {
+          "from": "1975,10",
+          "to": "1991,5",
+          "training": 70,
+          "morale": 70,
+          "reason": "Trained deployed Cuban regular force; retain constant moderate regular baseline because no reliable whole-contingent dated readiness series; no elite or late-surge blanketbonus."
+        }
+      ],
+      "command_recommendation": {
+        "commandDelay": "preserve existing30",
+        "commandDelayMod": "preserve existing0",
+        "reason": "No verified numeric doctrine-to-engine mapping in this bounded research. Root may calibrate only after inspecting manual/native semantics. No moral or political inferiority penalty."
+      },
+      "formation_mod_recommendations": [],
+      "hold_formation_mods": [
+        {
+          "ids": [
+            4109,
+            4110,
+            4111
+          ],
+          "trainingMod": 0,
+          "moraleMod": 0,
+          "reason": "Scout/sapper role is not evidence of elite selection; no named commando/BATE purchase exists here. Retain vanilla generic specialist values."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "UNITA / FALA",
+      "existing_dates": [
+        {
+          "from": "1966,3",
+          "to": "1975,12",
+          "spriteFlag": "flag_unita_draft",
+          "infantry3DModel": "unita_infantry_1966",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "0",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "0",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Early representative rifle/HQ cohort: mixedarming/nativebolt+Mauserfamily proxies, notexactissue/TOE. No positiveoffmap battery allocated(guns0/rocket0); unusedTRP/ammo/shares retainednative defaults, nothistoricalsupport claims. Zero-group engine behavior unverified. MPLA/EPLAbeforeAug1974; UNITAMar66armedrole/Dec66typedcapture boundary. Sharedplaincohort inference;42eligibleposes+2quarantinedlaunchercompatibilityfiles. Noingameacceptance."
+        },
+        {
+          "from": "1976,1",
+          "to": "1978,12",
+          "spriteFlag": "flag_unita_draft",
+          "infantry3DModel": "unita_infantry_1979",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "0",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "0",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Approvedordinarycorebridge: representative nationalmixedrifle/HQ and datedgenericMG/mortar proxies. NoexactTOE/weaponmark/uniformuniversalissue. Earlygun0/rocket0/nativeunuseddefaults preserved; nohistoricaloffmapbattery claim. ProperFAPLAnamefromAug1974, nationalflagNov1975. SpecificAK/G3/FAL/RPG2variants remainqueue; noRPG7/heavyfleetbackdate. Engineacceptanceoutstanding."
+        },
+        {
+          "from": "1979,1",
+          "to": "1979,12",
+          "spriteFlag": "flag_unita_draft",
+          "infantry3DModel": "unita_infantry_1979",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "0",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "1979 national light infantry, HQ, LMG and HE mortar core. Named contemporary sources qualify families; exact strength, weapon marks, loads, ratings and off-map artillery are declared native gameplay proxies. Representative national uniformed cohort, not universal kit. Offline assets reviewed; engine acceptance outstanding."
+        },
+        {
+          "from": "1980,1",
+          "to": "1980,8",
+          "spriteFlag": "flag_unita_draft",
+          "infantry3DModel": "unita_infantry_1980",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "0",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "UNITA1980Jan-Aug basic national core; rocket HE missions0 pending earlier typed operator qualification (HOLD, not non-use). Generic gun18 pool and other copied native support/rating values are gameplay allowances, not historical battery counts. Representative plainworkingdress and exact native weapon/strength proxies disclosed; laterheavyqueue open."
+        },
+        {
+          "from": "1980,9",
+          "to": "1987,12",
+          "spriteFlag": "flag_unita_draft",
+          "infantry3DModel": "unita_infantry_1980",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "UNITA1980Sep-1987Dec basic national core. Hempstone2Mar1981 article contextualSeptember1980Mavinga assault identifies capturedmultiple122mmrocketlaunchers androcketbarrage. NativeHErocketprobability25 is gameplayproxy, notinventory/count/historicalexpenditure. Boundedcontinuitythrough1987; exactnativeweapon/strength/kitproxiesdisclosed; namedheavyqueueopen."
+        },
+        {
+          "from": "1988,1",
+          "to": "1988,12",
+          "spriteFlag": "flag_unita_draft",
+          "infantry3DModel": "unita_infantry_1979",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Conservative1988 selectable snapshot around country-study research cutoff; not introduction/withdrawal dates.1966-1987 and1989-1994 availability require further evidence. Soviet command/artillery defaults and all infantry/crew art are explicit proxies, not FALA doctrine or uniforms."
+        },
+        {
+          "from": "1989,1",
+          "to": "1994,12",
+          "spriteFlag": "flag_unita_draft",
+          "infantry3DModel": "unita_infantry_1980",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Late boundednationalretention: UNITAFALA orFAPLAthroughSep1991/FAAfromOct1991. Source-qualifiedordinarycore/tankAPCartillery families; typedvisual/strength/load/readiness are disclosed proxies. Existingnativeabstractartillerysettings inherited, nothistoricalbatteryestablishment. Remainingheavyweapon/air/crewqueues preserved; noengineacceptance."
+        }
+      ],
+      "positive_roots": [
+        {
+          "selector": "formation1",
+          "value": "3200,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation2",
+          "value": "3201,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation3",
+          "value": "3202,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation4",
+          "value": "3204,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation5",
+          "value": "3205,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation6",
+          "value": "3206,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation7",
+          "value": "3207,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation8",
+          "value": "3208,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation9",
+          "value": "3209,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation10",
+          "value": "3210,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation11",
+          "value": "3211,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation12",
+          "value": "3212,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation13",
+          "value": "3213,1988,1,1994,12,100"
+        },
+        {
+          "selector": "formation14",
+          "value": "3214,1988,1,1994,12,100"
+        },
+        {
+          "selector": "formation15",
+          "value": "3215,1975,11,1994,12,100"
+        },
+        {
+          "selector": "formation16",
+          "value": "3216,1975,11,1994,12,100"
+        },
+        {
+          "selector": "formation17",
+          "value": "3217,1988,1,1994,12,100"
+        },
+        {
+          "selector": "formation18",
+          "value": "3218,1988,1,1994,12,100"
+        },
+        {
+          "selector": "formation19",
+          "value": "3219,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation20",
+          "value": "3220,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation21",
+          "value": "3222,1979,1,1987,12,100"
+        },
+        {
+          "selector": "formation22",
+          "value": "3223,1979,1,1987,12,100"
+        },
+        {
+          "selector": "formation23",
+          "value": "3224,1979,1,1987,12,100"
+        },
+        {
+          "selector": "formation24",
+          "value": "3225,1979,1,1979,12,100"
+        },
+        {
+          "selector": "formation25",
+          "value": "3226,1979,1,1979,12,100"
+        },
+        {
+          "selector": "formation26",
+          "value": "3227,1980,1,1987,12,100"
+        },
+        {
+          "selector": "formation27",
+          "value": "3228,1980,1,1987,12,100"
+        },
+        {
+          "selector": "formation28",
+          "value": "2902,1966,3,1975,12,100"
+        },
+        {
+          "selector": "formation29",
+          "value": "2903,1966,3,1975,12,100"
+        },
+        {
+          "selector": "formation30",
+          "value": "2904,1966,3,1975,12,100"
+        },
+        {
+          "selector": "formation31",
+          "value": "3222,1976,1,1978,12,100"
+        },
+        {
+          "selector": "formation32",
+          "value": "3223,1976,1,1978,12,100"
+        },
+        {
+          "selector": "formation33",
+          "value": "3224,1976,1,1978,12,100"
+        },
+        {
+          "selector": "formation34",
+          "value": "3225,1976,1,1978,12,100"
+        },
+        {
+          "selector": "formation35",
+          "value": "3226,1977,6,1978,12,100"
+        },
+        {
+          "selector": "formation36",
+          "value": "3222,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation37",
+          "value": "3223,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation38",
+          "value": "3224,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation39",
+          "value": "3227,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation40",
+          "value": "3228,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation41",
+          "value": "3200,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation42",
+          "value": "2905,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation43",
+          "value": "3205,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation44",
+          "value": "3207,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation45",
+          "value": "3208,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation46",
+          "value": "2906,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation47",
+          "value": "2907,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation48",
+          "value": "2908,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation49",
+          "value": "2909,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation50",
+          "value": "2910,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation51",
+          "value": "2911,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation52",
+          "value": "2912,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation53",
+          "value": "2913,1991,1,1994,12,100"
+        },
+        {
+          "selector": "formation54",
+          "value": "2914,1991,1,1994,12,100"
+        },
+        {
+          "selector": "formation55",
+          "value": "2915,1988,1,1994,12,100"
+        },
+        {
+          "selector": "formation56",
+          "value": "2916,1988,1,1994,12,100"
+        },
+        {
+          "selector": "formation57",
+          "value": "2917,1988,1,1994,12,100"
+        },
+        {
+          "selector": "formation58",
+          "value": "2918,1988,1,1994,12,100"
+        },
+        {
+          "selector": "formation59",
+          "value": "2919,1969,1,1975,12,100"
+        },
+        {
+          "selector": "formation60",
+          "value": "2920,1969,1,1975,12,100"
+        },
+        {
+          "selector": "formation61",
+          "value": "2923,1969,1,1975,12,100"
+        },
+        {
+          "selector": "formation62",
+          "value": "2924,1969,1,1975,12,100"
+        },
+        {
+          "selector": "formation63",
+          "value": "2925,1969,1,1975,12,100"
+        },
+        {
+          "selector": "formation64",
+          "value": "2926,1966,12,1975,12,100"
+        },
+        {
+          "selector": "formation65",
+          "value": "2927,1966,12,1975,12,100"
+        },
+        {
+          "selector": "formation66",
+          "value": "2928,1986,5,1990,12,100"
+        },
+        {
+          "selector": "formation67",
+          "value": "2929,1986,5,1990,12,100"
+        },
+        {
+          "selector": "formation68",
+          "value": "2930,1987,1,1994,12,100"
+        },
+        {
+          "selector": "formation69",
+          "value": "2931,1987,1,1994,12,100"
+        },
+        {
+          "selector": "formation70",
+          "value": "2932,1983,5,1994,12,100"
+        },
+        {
+          "selector": "formation71",
+          "value": "2933,1983,5,1994,12,100"
+        },
+        {
+          "selector": "formation72",
+          "value": "2934,1975,11,1994,12,100"
+        },
+        {
+          "selector": "formation73",
+          "value": "2935,1977,6,1994,12,100"
+        },
+        {
+          "selector": "formation74",
+          "value": "2936,1977,6,1978,12,100"
+        },
+        {
+          "selector": "formation75",
+          "value": "2936,1979,1,1987,12,100"
+        },
+        {
+          "selector": "formation76",
+          "value": "2936,1989,1,1994,12,100"
+        },
+        {
+          "selector": "formation77",
+          "value": "2937,1988,1,1988,12,100"
+        },
+        {
+          "selector": "formation78",
+          "value": "2940,1966,3,1975,10,100"
+        },
+        {
+          "selector": "formation79",
+          "value": "2938,1987,7,1994,12,100"
+        },
+        {
+          "selector": "formation80",
+          "value": "2939,1987,7,1994,12,100"
+        }
+      ],
+      "reachable_formations": [
+        {
+          "id": 2902,
+          "name": "UNITA Bolt-action Rifle Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2903,
+          "name": "UNITA Bolt-action Guerrilla Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2904,
+          "name": "UNITA HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2905,
+          "name": "UNITA AK/RPG Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2906,
+          "name": "UNITA Captured T-55 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2907,
+          "name": "UNITA Captured BTR-60 Mounted HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2908,
+          "name": "UNITA Captured BTR-60 Mounted Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2909,
+          "name": "UNITA Captured D-30 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2910,
+          "name": "UNITA Captured D-30 Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2911,
+          "name": "UNITA Captured BM-21 Launcher",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2912,
+          "name": "UNITA Captured BM-21 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2913,
+          "name": "UNITA Toyota RCL Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2914,
+          "name": "UNITA Toyota RCL Section HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2915,
+          "name": "UNITA 76mm Field Gun Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2916,
+          "name": "UNITA 76mm Field Gun Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2917,
+          "name": "UNITA 76mm Direct Gun Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2918,
+          "name": "UNITA 76mm Direct Gun Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2919,
+          "name": "UNITA Assault Rifle Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2920,
+          "name": "UNITA Assault Rifle Guerrilla Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2923,
+          "name": "UNITA Rifle Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2924,
+          "name": "UNITA Guerrilla Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2925,
+          "name": "UNITA PPSh SMG Element",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2926,
+          "name": "UNITA Madsen LMG Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2927,
+          "name": "UNITA Madsen LMG Pair",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2928,
+          "name": "UNITA Stinger MANPADS Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2929,
+          "name": "UNITA Stinger MANPADS Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2930,
+          "name": "UNITA MILAN ATGM Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2931,
+          "name": "UNITA MILAN ATGM Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2932,
+          "name": "UNITA 12.7mm HMG Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2933,
+          "name": "UNITA 12.7mm HMG Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2934,
+          "name": "UNITA Scout Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2935,
+          "name": "UNITA Demolition Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2936,
+          "name": "UNITA Rifle Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3224,
+            3223,
+            3223,
+            3223
+          ]
+        },
+        {
+          "id": 2937,
+          "name": "UNITA Rifle Company [RPG-7]",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3202,
+            3201,
+            3201,
+            3201
+          ]
+        },
+        {
+          "id": 2938,
+          "name": "UNITA TOW ATGM Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2939,
+          "name": "UNITA TOW ATGM Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 2940,
+          "name": "UNITA Scout Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3200,
+          "name": "UNITA Rifle Section [RPG-7]",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3201,
+          "name": "UNITA Rifle Platoon [RPG-7]",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3202,
+          "name": "UNITA Rifle HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3204,
+          "name": "UNITA Guerrilla Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3205,
+          "name": "UNITA Captured BTR-60 Detachment",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3206,
+          "name": "UNITA Mounted Rifle Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3207,
+          "name": "UNITA Captured T-55 Single Tank",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3208,
+          "name": "UNITA Captured T-55 Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3209,
+          "name": "UNITA Captured T-34 Single Tank",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3210,
+          "name": "UNITA Captured T-34 Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3211,
+          "name": "UNITA 82mm Mortar Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3212,
+          "name": "UNITA 82mm Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3213,
+          "name": "UNITA 120mm Mortar Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3214,
+          "name": "UNITA 120mm Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3215,
+          "name": "UNITA 106mm RCL Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3216,
+          "name": "UNITA 106mm RCL Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3217,
+          "name": "UNITA SA-7 Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3218,
+          "name": "UNITA SA-7 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3219,
+          "name": "UNITA Redeye Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3220,
+          "name": "UNITA Redeye Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3222,
+          "name": "UNITA Rifle Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3223,
+          "name": "UNITA Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3224,
+          "name": "UNITA Infantry HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3225,
+          "name": "UNITA Light MG Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3226,
+          "name": "UNITA Medium Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3227,
+          "name": "UNITA Light MG Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3228,
+          "name": "UNITA Medium Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        }
+      ],
+      "recommended_baselines": [
+        {
+          "from": "1966,3",
+          "to": "1975,12",
+          "training": 55,
+          "morale": 65,
+          "reason": "Early developing guerrilla organisation; coarse bounded calibration, not a dated annual readiness measurement."
+        },
+        {
+          "from": "1976,1",
+          "to": "1984,12",
+          "training": 60,
+          "morale": 65,
+          "reason": "Post1976 guerrilla rebuilding and sustained external training; transition is bounded reconstruction, not exact January1976 readiness event."
+        },
+        {
+          "from": "1985,1",
+          "to": "1994,12",
+          "training": 65,
+          "morale": 65,
+          "reason": "By mid1980s formal multi-tier FALA structure; hold through1991\u201392 because force cohesion retained; conflicting motivation reports do not support blanket morale rise."
+        }
+      ],
+      "command_recommendation": {
+        "commandDelay": "preserve existing30",
+        "commandDelayMod": "preserve existing0",
+        "reason": "No verified numeric doctrine-to-engine mapping in this bounded research. Root may calibrate only after inspecting manual/native semantics. No moral or political inferiority penalty."
+      },
+      "formation_mod_recommendations": [],
+      "hold_formation_mods": [
+        {
+          "ids": [
+            2934,
+            2935,
+            2940
+          ],
+          "trainingMod": 0,
+          "moraleMod": 0,
+          "reason": "Scout/sapper role is not evidence of elite selection; no named commando/BATE purchase exists here. Retain vanilla generic specialist values."
+        }
+      ],
+      "formation_mod_hold_reason": "Do not apply blanket irregular penalty on top of early guerrilla baseline or infer regular status solely from AK/RPG labels. Existing selectors do not cleanly expose documented FALA regular/semi-regular/militia tiers. Leave all at0/0 pending an actual existing unambiguous tier binding; no newselectors allowed."
+    },
+    {
+      "id": 14,
+      "name": "MPLA / FAPLA",
+      "existing_dates": [
+        {
+          "from": "1965,1",
+          "to": "1974,7",
+          "spriteFlag": "fapla_epla_movement_flag_1965",
+          "infantry3DModel": "fapla_epla_infantry_1965",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "0",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "0",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Early representative rifle/HQ cohort: mixedarming/nativebolt+Mauserfamily proxies, notexactissue/TOE. No positiveoffmap battery allocated(guns0/rocket0); unusedTRP/ammo/shares retainednative defaults, nothistoricalsupport claims. Zero-group engine behavior unverified. MPLA/EPLAbeforeAug1974; UNITAMar66armedrole/Dec66typedcapture boundary. Sharedplaincohort inference;42eligibleposes+2quarantinedlaunchercompatibilityfiles. Noingameacceptance."
+        },
+        {
+          "from": "1974,8",
+          "to": "1975,10",
+          "spriteFlag": "fapla_epla_movement_flag_1965",
+          "infantry3DModel": "fapla_epla_infantry_1965",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "0",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "0",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Approvedordinarycorebridge: representative nationalmixedrifle/HQ and datedgenericMG/mortar proxies. NoexactTOE/weaponmark/uniformuniversalissue. Earlygun0/rocket0/nativeunuseddefaults preserved; nohistoricaloffmapbattery claim. ProperFAPLAnamefromAug1974, nationalflagNov1975. SpecificAK/G3/FAL/RPG2variants remainqueue; noRPG7/heavyfleetbackdate. Engineacceptanceoutstanding."
+        },
+        {
+          "from": "1975,11",
+          "to": "1975,11",
+          "spriteFlag": "flag_ao",
+          "infantry3DModel": "fapla_epla_infantry_1965",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "0",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "0",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Approvedordinarycorebridge: representative nationalmixedrifle/HQ and datedgenericMG/mortar proxies. NoexactTOE/weaponmark/uniformuniversalissue. Earlygun0/rocket0/nativeunuseddefaults preserved; nohistoricaloffmapbattery claim. ProperFAPLAnamefromAug1974, nationalflagNov1975. SpecificAK/G3/FAL/RPG2variants remainqueue; noRPG7/heavyfleetbackdate. Engineacceptanceoutstanding."
+        },
+        {
+          "from": "1975,12",
+          "to": "1978,12",
+          "spriteFlag": "flag_ao",
+          "infantry3DModel": "fapla_infantry_1979",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "0",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "0",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Approvedordinarycorebridge: representative nationalmixedrifle/HQ and datedgenericMG/mortar proxies. NoexactTOE/weaponmark/uniformuniversalissue. Earlygun0/rocket0/nativeunuseddefaults preserved; nohistoricaloffmapbattery claim. ProperFAPLAnamefromAug1974, nationalflagNov1975. SpecificAK/G3/FAL/RPG2variants remainqueue; noRPG7/heavyfleetbackdate. Engineacceptanceoutstanding."
+        },
+        {
+          "from": "1979,1",
+          "to": "1979,12",
+          "spriteFlag": "flag_ao",
+          "infantry3DModel": "fapla_infantry_1979",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "1979 national light infantry, HQ, LMG and HE mortar core. Named contemporary sources qualify families; exact strength, weapon marks, loads, ratings and off-map artillery are declared native gameplay proxies. Representative national uniformed cohort, not universal kit. Offline assets reviewed; engine acceptance outstanding."
+        },
+        {
+          "from": "1980,1",
+          "to": "1986,12",
+          "spriteFlag": "flag_ao",
+          "infantry3DModel": "fapla_infantry_1979",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "FAPLA1980-86 basic national core. PublishedBrILorganization assignsGrad1Procketcompany fromJul1978andexpandingbrigades1980-85; indexedtextnotoriginalpagepixels. GenericHErocketprobability25 retained asnativegameplayproxy, notBM21vehiclebackdate/inventory/expenditures. Final1986boundedretention; genericgun18poolandcopiedsettingsnativeallowances; exactkit/weapons/strengthproxiesdisclosed; fullheavyqueueopen."
+        },
+        {
+          "from": "1987,1",
+          "to": "1988,12",
+          "spriteFlag": "flag_ao",
+          "infantry3DModel": "fapla_infantry_1979",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "FAPLA 1987-1988 only. Angola national flag independently drawn from official manual. Native Soviet ratings and personnel remain explicit proxies. MPLA liberation-era and FAA successor are separate unresolved phases."
+        },
+        {
+          "from": "1989,1",
+          "to": "1991,9",
+          "spriteFlag": "flag_ao",
+          "infantry3DModel": "fapla_infantry_1979",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Late boundednationalretention: UNITAFALA orFAPLAthroughSep1991/FAAfromOct1991. Source-qualifiedordinarycore/tankAPCartillery families; typedvisual/strength/load/readiness are disclosed proxies. Existingnativeabstractartillerysettings inherited, nothistoricalbatteryestablishment. Remainingheavyweapon/air/crewqueues preserved; noengineacceptance."
+        },
+        {
+          "from": "1991,10",
+          "to": "1994,12",
+          "spriteFlag": "flag_ao",
+          "infantry3DModel": "fapla_infantry_1979",
+          "morale": "65",
+          "training": "65",
+          "combatPowerMod": "0",
+          "commandDelay": "30",
+          "commandDelayMod": "0",
+          "artyDelayMin": "120",
+          "artyDelayMax": "1200",
+          "artyAIFireOutsideTRP": "FALSE",
+          "artyCostPerGun": "100",
+          "artyGunNum": "18",
+          "artyTRPNum": "6",
+          "artyAmmoPerGun": "60",
+          "artyHEPercent": "80",
+          "artyDPICMPercent": "0",
+          "artySmokePercent": "15",
+          "artyIlluminationPercent": "5",
+          "artyHasMines": "FALSE",
+          "artyMLRSHE": "25",
+          "artyMLRSDPICM": "0",
+          "AIVisualContactDismountRangeMin": "500",
+          "AIVisualContactDismountRangeMax": "2000",
+          "MGPillboxUnitID": "1",
+          "comment": "Late boundednationalretention: UNITAFALA orFAPLAthroughSep1991/FAAfromOct1991. Source-qualifiedordinarycore/tankAPCartillery families; typedvisual/strength/load/readiness are disclosed proxies. Existingnativeabstractartillerysettings inherited, nothistoricalbatteryestablishment. Remainingheavyweapon/air/crewqueues preserved; noengineacceptance."
+        }
+      ],
+      "positive_roots": [
+        {
+          "selector": "formation1",
+          "value": "3300,1987,1,1988,12,100"
+        },
+        {
+          "selector": "formation2",
+          "value": "3301,1987,1,1988,12,100"
+        },
+        {
+          "selector": "formation3",
+          "value": "3303,1987,1,1988,12,100"
+        },
+        {
+          "selector": "formation4",
+          "value": "3304,1987,1,1988,12,100"
+        },
+        {
+          "selector": "formation5",
+          "value": "3306,1987,1,1991,9,100"
+        },
+        {
+          "selector": "formation6",
+          "value": "3308,1980,1,1988,12,100"
+        },
+        {
+          "selector": "formation7",
+          "value": "3310,1987,1,1988,12,100"
+        },
+        {
+          "selector": "formation8",
+          "value": "3312,1987,1,1991,9,100"
+        },
+        {
+          "selector": "formation9",
+          "value": "3314,1987,1,1991,9,100"
+        },
+        {
+          "selector": "formation10",
+          "value": "3316,1987,10,1991,9,100"
+        },
+        {
+          "selector": "formation11",
+          "value": "3318,1987,10,1987,12,100"
+        },
+        {
+          "selector": "formation12",
+          "value": "3320,1979,1,1986,12,100"
+        },
+        {
+          "selector": "formation13",
+          "value": "3321,1979,1,1986,12,100"
+        },
+        {
+          "selector": "formation14",
+          "value": "3322,1979,1,1986,12,100"
+        },
+        {
+          "selector": "formation15",
+          "value": "3323,1979,1,1986,12,100"
+        },
+        {
+          "selector": "formation16",
+          "value": "3324,1979,1,1986,12,100"
+        },
+        {
+          "selector": "formation17",
+          "value": "3325,1987,8,1988,12,100"
+        },
+        {
+          "selector": "formation18",
+          "value": "3326,1987,8,1988,12,100"
+        },
+        {
+          "selector": "formation19",
+          "value": "3340,1965,1,1974,7,100"
+        },
+        {
+          "selector": "formation20",
+          "value": "3341,1965,1,1974,7,100"
+        },
+        {
+          "selector": "formation21",
+          "value": "3342,1965,1,1974,7,100"
+        },
+        {
+          "selector": "formation22",
+          "value": "3343,1974,8,1975,11,100"
+        },
+        {
+          "selector": "formation23",
+          "value": "3344,1974,8,1975,11,100"
+        },
+        {
+          "selector": "formation24",
+          "value": "3345,1974,8,1975,11,100"
+        },
+        {
+          "selector": "formation25",
+          "value": "3320,1975,12,1978,12,100"
+        },
+        {
+          "selector": "formation26",
+          "value": "3321,1975,12,1978,12,100"
+        },
+        {
+          "selector": "formation27",
+          "value": "3322,1975,12,1978,12,100"
+        },
+        {
+          "selector": "formation28",
+          "value": "3323,1975,12,1978,12,100"
+        },
+        {
+          "selector": "formation29",
+          "value": "3324,1975,10,1978,12,100"
+        },
+        {
+          "selector": "formation30",
+          "value": "3320,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation31",
+          "value": "3321,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation32",
+          "value": "3322,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation33",
+          "value": "3323,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation34",
+          "value": "3324,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation35",
+          "value": "3325,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation36",
+          "value": "3326,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation37",
+          "value": "3310,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation38",
+          "value": "3358,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation39",
+          "value": "3359,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation40",
+          "value": "3360,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation41",
+          "value": "3346,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation42",
+          "value": "3347,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation43",
+          "value": "3348,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation44",
+          "value": "3349,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation45",
+          "value": "3350,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation46",
+          "value": "3351,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation47",
+          "value": "3352,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation48",
+          "value": "3353,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation49",
+          "value": "3354,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation50",
+          "value": "3355,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation51",
+          "value": "3356,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation52",
+          "value": "3357,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation53",
+          "value": "3361,1988,1,1991,9,100"
+        },
+        {
+          "selector": "formation54",
+          "value": "3362,1988,1,1991,9,100"
+        },
+        {
+          "selector": "formation55",
+          "value": "3363,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation56",
+          "value": "3364,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation57",
+          "value": "3365,1979,1,1991,9,100"
+        },
+        {
+          "selector": "formation58",
+          "value": "3366,1979,1,1991,9,100"
+        },
+        {
+          "selector": "formation59",
+          "value": "3367,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation60",
+          "value": "3368,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation61",
+          "value": "3369,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation62",
+          "value": "3370,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation63",
+          "value": "3371,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation64",
+          "value": "3372,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation65",
+          "value": "3373,1991,1,1991,9,100"
+        },
+        {
+          "selector": "formation66",
+          "value": "3374,1991,1,1991,9,100"
+        },
+        {
+          "selector": "formation67",
+          "value": "3375,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation68",
+          "value": "3376,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation69",
+          "value": "3330,1988,1,1991,9,100"
+        },
+        {
+          "selector": "formation70",
+          "value": "3331,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation71",
+          "value": "3332,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation72",
+          "value": "3333,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation73",
+          "value": "3334,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation74",
+          "value": "3387,1978,1,1991,9,100"
+        },
+        {
+          "selector": "formation75",
+          "value": "3388,1978,1,1991,9,100"
+        },
+        {
+          "selector": "formation76",
+          "value": "3389,1978,1,1991,9,100"
+        },
+        {
+          "selector": "formation77",
+          "value": "3390,1978,1,1991,9,100"
+        },
+        {
+          "selector": "formation78",
+          "value": "3391,1988,1,1991,9,100"
+        },
+        {
+          "selector": "formation79",
+          "value": "3392,1988,1,1991,9,100"
+        },
+        {
+          "selector": "formation80",
+          "value": "3393,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation81",
+          "value": "3394,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation82",
+          "value": "3395,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation83",
+          "value": "3396,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation84",
+          "value": "3397,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation85",
+          "value": "3398,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation86",
+          "value": "3359,1975,12,1986,12,100"
+        },
+        {
+          "selector": "formation87",
+          "value": "3399,1975,12,1986,12,100"
+        },
+        {
+          "selector": "formation88",
+          "value": "3310,1979,1,1986,12,100"
+        },
+        {
+          "selector": "formation89",
+          "value": "3335,1979,1,1991,9,100"
+        },
+        {
+          "selector": "formation90",
+          "value": "3335,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation91",
+          "value": "3336,1979,1,1991,9,100"
+        },
+        {
+          "selector": "formation92",
+          "value": "3377,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation93",
+          "value": "3337,1980,1,1991,9,100"
+        },
+        {
+          "selector": "formation94",
+          "value": "3337,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation95",
+          "value": "3338,1980,1,1991,9,100"
+        },
+        {
+          "selector": "formation96",
+          "value": "3378,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation97",
+          "value": "3379,1988,1,1991,9,100"
+        },
+        {
+          "selector": "formation98",
+          "value": "3379,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation99",
+          "value": "3380,1988,1,1991,9,100"
+        },
+        {
+          "selector": "formation100",
+          "value": "3380,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation101",
+          "value": "3381,1981,1,1991,9,100"
+        },
+        {
+          "selector": "formation102",
+          "value": "3382,1981,1,1991,9,100"
+        },
+        {
+          "selector": "formation103",
+          "value": "3381,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation104",
+          "value": "3383,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation105",
+          "value": "3327,1975,1,1991,9,100"
+        },
+        {
+          "selector": "formation106",
+          "value": "3328,1975,1,1991,9,100"
+        },
+        {
+          "selector": "formation107",
+          "value": "3339,1975,1,1991,9,100"
+        },
+        {
+          "selector": "formation108",
+          "value": "3384,1975,1,1991,9,100"
+        },
+        {
+          "selector": "formation109",
+          "value": "3327,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation110",
+          "value": "3329,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation111",
+          "value": "3339,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation112",
+          "value": "3385,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation113",
+          "value": "3486,1967,1,1975,11,100"
+        },
+        {
+          "selector": "formation114",
+          "value": "3487,1967,1,1974,7,100"
+        },
+        {
+          "selector": "formation115",
+          "value": "3488,1974,8,1975,11,100"
+        },
+        {
+          "selector": "formation116",
+          "value": "3489,1967,1,1975,11,100"
+        },
+        {
+          "selector": "formation117",
+          "value": "3490,1967,1,1974,7,100"
+        },
+        {
+          "selector": "formation118",
+          "value": "3491,1974,8,1975,11,100"
+        },
+        {
+          "selector": "formation119",
+          "value": "3900,1967,1,1975,11,100"
+        },
+        {
+          "selector": "formation120",
+          "value": "3901,1967,1,1974,7,100"
+        },
+        {
+          "selector": "formation121",
+          "value": "3902,1974,8,1975,11,100"
+        },
+        {
+          "selector": "formation122",
+          "value": "3903,1966,1,1974,7,100"
+        },
+        {
+          "selector": "formation123",
+          "value": "3904,1966,1,1974,7,100"
+        },
+        {
+          "selector": "formation124",
+          "value": "3907,1978,1,1991,9,100"
+        },
+        {
+          "selector": "formation125",
+          "value": "3908,1978,1,1991,9,100"
+        },
+        {
+          "selector": "formation126",
+          "value": "3909,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation127",
+          "value": "3910,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation128",
+          "value": "3913,1978,1,1991,9,100"
+        },
+        {
+          "selector": "formation129",
+          "value": "3914,1978,1,1991,9,100"
+        },
+        {
+          "selector": "formation130",
+          "value": "3913,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation131",
+          "value": "3915,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation132",
+          "value": "3916,1965,1,1974,7,100"
+        },
+        {
+          "selector": "formation133",
+          "value": "3917,1988,5,1991,9,100"
+        },
+        {
+          "selector": "formation134",
+          "value": "3918,1988,5,1991,9,100"
+        },
+        {
+          "selector": "formation135",
+          "value": "3919,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation136",
+          "value": "3920,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation137",
+          "value": "3921,1975,12,1991,9,100"
+        },
+        {
+          "selector": "formation138",
+          "value": "3922,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation139",
+          "value": "3923,1975,12,1978,12,100"
+        },
+        {
+          "selector": "formation140",
+          "value": "3923,1979,1,1986,12,100"
+        },
+        {
+          "selector": "formation141",
+          "value": "3923,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation142",
+          "value": "3924,1987,1,1988,12,100"
+        },
+        {
+          "selector": "formation143",
+          "value": "3925,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation144",
+          "value": "3926,1975,12,1986,12,100"
+        },
+        {
+          "selector": "formation145",
+          "value": "3927,1987,1,1988,12,100"
+        },
+        {
+          "selector": "formation146",
+          "value": "3928,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation147",
+          "value": "3929,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation148",
+          "value": "3930,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation149",
+          "value": "3931,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation150",
+          "value": "3932,1988,1,1991,9,100"
+        },
+        {
+          "selector": "formation151",
+          "value": "3933,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation152",
+          "value": "3934,1987,8,1988,12,100"
+        },
+        {
+          "selector": "formation153",
+          "value": "3934,1989,1,1991,9,100"
+        },
+        {
+          "selector": "formation154",
+          "value": "3935,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation155",
+          "value": "3936,1988,1,1991,9,100"
+        },
+        {
+          "selector": "formation156",
+          "value": "3937,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation157",
+          "value": "3938,1978,1,1991,9,100"
+        },
+        {
+          "selector": "formation158",
+          "value": "3939,1991,10,1994,12,100"
+        },
+        {
+          "selector": "formation159",
+          "value": "3940,1974,8,1975,11,100"
+        },
+        {
+          "selector": "formation160",
+          "value": "3941,1975,11,1988,4,100"
+        },
+        {
+          "selector": "formation161",
+          "value": "3942,1991,10,1994,12,100"
+        }
+      ],
+      "reachable_formations": [
+        {
+          "id": 3300,
+          "name": "FAPLA AK/RPG Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3301,
+          "name": "FAPLA Rifle HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3303,
+          "name": "FAPLA BTR-60PB Mounted Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3304,
+          "name": "FAPLA Mounted HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3306,
+          "name": "FAPLA 120mm Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3308,
+          "name": "FAPLA B-10 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3310,
+          "name": "FAPLA D-30 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3312,
+          "name": "FAPLA Osa-AK Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3314,
+          "name": "FAPLA Strela-10 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3316,
+          "name": "FAPLA BM-21 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3318,
+          "name": "FAPLA Grad-P Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3320,
+          "name": "FAPLA Rifle Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3321,
+          "name": "FAPLA Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3322,
+          "name": "FAPLA Infantry HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3323,
+          "name": "FAPLA Light MG Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3324,
+          "name": "FAPLA Medium Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3325,
+          "name": "FAPLA T-55 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3326,
+          "name": "FAPLA T-55 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3327,
+          "name": "76mm Field Gun Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3328,
+          "name": "FAPLA 76mm Field Gun Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3329,
+          "name": "FAA 76mm Field Gun Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3330,
+          "name": "FAPLA ZSU-23-4 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3331,
+          "name": "FAA ZSU-23-4 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3332,
+          "name": "FAA Osa-AK Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3333,
+          "name": "FAA Strela-10 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3334,
+          "name": "FAA BM-21 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3335,
+          "name": "ZU-23-2 AA Gun Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3336,
+          "name": "FAPLA ZU-23-2 AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3337,
+          "name": "ZPU-4 AA Gun Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3338,
+          "name": "FAPLA ZPU-4 AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3339,
+          "name": "76mm Direct Gun Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3340,
+          "name": "MPLA/EPLA Bolt-action Rifle Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3341,
+          "name": "MPLA/EPLA Bolt-action Guerrilla Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3342,
+          "name": "MPLA/EPLA HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3343,
+          "name": "FAPLA Mixed Rifle Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3344,
+          "name": "FAPLA Mixed Guerrilla Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3345,
+          "name": "FAPLA Mixed HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3346,
+          "name": "FAA Rifle Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3347,
+          "name": "FAA Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3348,
+          "name": "FAA Infantry HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3349,
+          "name": "FAA Light MG Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3350,
+          "name": "FAA Medium Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3351,
+          "name": "FAA T-55 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3352,
+          "name": "FAA T-55 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3353,
+          "name": "FAA BTR-60PB Mounted Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3354,
+          "name": "FAA BTR-60PB Mounted HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3355,
+          "name": "FAA D-30 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3356,
+          "name": "FAA AK/RPG Rifle Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3357,
+          "name": "FAA AK/RPG Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3358,
+          "name": "FAPLA AK/RPG Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3359,
+          "name": "FAPLA BTR-60PB Mounted HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3360,
+          "name": "FAPLA BTR-60PB Mounted Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3361,
+          "name": "FAPLA T-62 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3362,
+          "name": "FAPLA T-62 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3363,
+          "name": "FAPLA BMP-1 Mounted Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3364,
+          "name": "FAPLA BMP-1 Mounted HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3365,
+          "name": "FAPLA BRDM-2 Recon Pair",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3366,
+          "name": "FAPLA BRDM-2 Recon HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3367,
+          "name": "FAA T-62 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3368,
+          "name": "FAA T-62 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3369,
+          "name": "FAA BMP-1 Mounted Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3370,
+          "name": "FAA BMP-1 Mounted HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3371,
+          "name": "FAA BRDM-2 Recon Pair",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3372,
+          "name": "FAA BRDM-2 Recon HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3373,
+          "name": "FAPLA M-46 Field Gun Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3374,
+          "name": "FAPLA M-46 Field Gun Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3375,
+          "name": "FAA M-46 Field Gun Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3376,
+          "name": "FAA M-46 Field Gun Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3377,
+          "name": "FAA ZU-23-2 AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3378,
+          "name": "FAA ZPU-4 AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3379,
+          "name": "ZSU-57-2 AA Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3380,
+          "name": "ZSU-57-2 AA Pair",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3381,
+          "name": "S-60 AA Gun Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3382,
+          "name": "FAPLA S-60 AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3383,
+          "name": "FAA S-60 AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3384,
+          "name": "FAPLA 76mm Direct Gun Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3385,
+          "name": "FAA 76mm Direct Gun Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3387,
+          "name": "FAPLA T-34-85 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3388,
+          "name": "FAPLA T-34-85 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3389,
+          "name": "FAPLA PT-76 Recon Pair",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3390,
+          "name": "FAPLA PT-76 Recon HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3391,
+          "name": "FAPLA BMP-2 Mounted Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3392,
+          "name": "FAPLA BMP-2 Mounted HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3393,
+          "name": "FAA T-34-85 Tank Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3394,
+          "name": "FAA T-34-85 Tank HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3395,
+          "name": "FAA PT-76 Recon Pair",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3396,
+          "name": "FAA PT-76 Recon HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3397,
+          "name": "FAA BMP-2 Mounted Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3398,
+          "name": "FAA BMP-2 Mounted HQ",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3399,
+          "name": "FAPLA Early BTR-60PB Rifle Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3486,
+          "name": "Guerrilla Assault Rifle Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3487,
+          "name": "MPLA/EPLA Assault Rifle Guerrilla Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3488,
+          "name": "FAPLA Assault Rifle Guerrilla Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3489,
+          "name": "Guerrilla StG44 Rifle Group",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3490,
+          "name": "MPLA/EPLA StG44 Guerrilla Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3491,
+          "name": "FAPLA StG44 Guerrilla Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3900,
+          "name": "MPLA MG34 Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3901,
+          "name": "MPLA/EPLA MG34 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3902,
+          "name": "FAPLA MG34 Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3903,
+          "name": "MPLA Shoulder AT Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3904,
+          "name": "MPLA Shoulder AT Pair",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3907,
+          "name": "FAPLA SA-7 MANPADS Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3908,
+          "name": "FAPLA SA-7 MANPADS Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3909,
+          "name": "FAA SA-7 MANPADS Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3910,
+          "name": "FAA SA-7 MANPADS Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3913,
+          "name": "37mm AA Gun Team",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3914,
+          "name": "FAPLA 37mm AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3915,
+          "name": "FAA 37mm AA Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3916,
+          "name": "MPLA/EPLA Scout Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3917,
+          "name": "FAPLA Sapper Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3918,
+          "name": "FAPLA Sapper Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3919,
+          "name": "FAA Sapper Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3920,
+          "name": "FAA Sapper Platoon",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3921,
+          "name": "FAPLA Scout Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3922,
+          "name": "FAA Scout Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3923,
+          "name": "FAPLA Rifle Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3322,
+            3321,
+            3321,
+            3321
+          ]
+        },
+        {
+          "id": 3924,
+          "name": "FAPLA Rifle Company [RPG-7]",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3301,
+            3300,
+            3300,
+            3300
+          ]
+        },
+        {
+          "id": 3925,
+          "name": "FAA Rifle Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3348,
+            3347,
+            3347,
+            3347
+          ]
+        },
+        {
+          "id": 3926,
+          "name": "FAPLA BTR-60PB Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3359,
+            3399,
+            3399,
+            3399
+          ]
+        },
+        {
+          "id": 3927,
+          "name": "FAPLA BTR-60PB Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3304,
+            3303,
+            3303,
+            3303
+          ]
+        },
+        {
+          "id": 3928,
+          "name": "FAPLA BTR-60PB Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3359,
+            3360,
+            3360,
+            3360
+          ]
+        },
+        {
+          "id": 3929,
+          "name": "FAA BTR-60PB Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3354,
+            3353,
+            3353,
+            3353
+          ]
+        },
+        {
+          "id": 3930,
+          "name": "FAPLA BMP-1 Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3364,
+            3363,
+            3363,
+            3363
+          ]
+        },
+        {
+          "id": 3931,
+          "name": "FAA BMP-1 Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3370,
+            3369,
+            3369,
+            3369
+          ]
+        },
+        {
+          "id": 3932,
+          "name": "FAPLA BMP-2 Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3392,
+            3391,
+            3391,
+            3391
+          ]
+        },
+        {
+          "id": 3933,
+          "name": "FAA BMP-2 Mechanized Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3398,
+            3397,
+            3397,
+            3397
+          ]
+        },
+        {
+          "id": 3934,
+          "name": "FAPLA T-55 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3326,
+            3325,
+            3325,
+            3325
+          ]
+        },
+        {
+          "id": 3935,
+          "name": "FAA T-55 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3351,
+            3352,
+            3352,
+            3352
+          ]
+        },
+        {
+          "id": 3936,
+          "name": "FAPLA T-62 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3362,
+            3361,
+            3361,
+            3361
+          ]
+        },
+        {
+          "id": 3937,
+          "name": "FAA T-62 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3368,
+            3367,
+            3367,
+            3367
+          ]
+        },
+        {
+          "id": 3938,
+          "name": "FAPLA T-34-85 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3388,
+            3387,
+            3387,
+            3387
+          ]
+        },
+        {
+          "id": 3939,
+          "name": "FAA T-34-85 Tank Company",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "TRUE",
+          "nested": [
+            3394,
+            3393,
+            3393,
+            3393
+          ]
+        },
+        {
+          "id": 3940,
+          "name": "FAPLA Scout Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3941,
+          "name": "FAPLA Demolition Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        },
+        {
+          "id": 3942,
+          "name": "FAA 120mm Mortar Section",
+          "trainingMod": "0",
+          "moraleMod": "0",
+          "isParentFormation": "FALSE",
+          "nested": []
+        }
+      ],
+      "recommended_baselines": [
+        {
+          "from": "1965,1",
+          "to": "1975,10",
+          "training": 55,
+          "morale": 65,
+          "reason": "Liberation-era organisation, no generic conventional-force skill assumption."
+        },
+        {
+          "from": "1975,11",
+          "to": "1984,12",
+          "training": 60,
+          "morale": 65,
+          "reason": "Formation of conventional army under wartime expansion and training assistance; not an instant mastery of combined arms."
+        },
+        {
+          "from": "1985,1",
+          "to": "1991,5",
+          "training": 65,
+          "morale": 65,
+          "reason": "Mid1980s formal instruction and improved capacity; not uncritical acceptance of belligerent success or failure claims."
+        },
+        {
+          "from": "1991,6",
+          "to": "1993,6",
+          "training": 60,
+          "morale": 60,
+          "reason": "Bicesse demobilization/integration disruption and renewed-war rebuilding; reduction reflects documented organisation/supply/cohesion issues, not political outcome."
+        },
+        {
+          "from": "1993,7",
+          "to": "1994,12",
+          "training": 65,
+          "morale": 65,
+          "reason": "Partial recovery with retraining and rearmament1993\u201394; midyear boundary is explicit gameplaycohort inference, not exact nationwide certification."
+        }
+      ],
+      "command_recommendation": {
+        "commandDelay": "preserve existing30",
+        "commandDelayMod": "preserve existing0",
+        "reason": "No verified numeric doctrine-to-engine mapping in this bounded research. Root may calibrate only after inspecting manual/native semantics. No moral or political inferiority penalty."
+      },
+      "formation_mod_recommendations": [],
+      "hold_formation_mods": [
+        {
+          "ids": [
+            3916,
+            3917,
+            3918,
+            3919,
+            3920,
+            3921,
+            3922,
+            3940,
+            3941
+          ],
+          "trainingMod": 0,
+          "moraleMod": 0,
+          "reason": "Scout/sapper role is not evidence of elite selection; no named commando/BATE purchase exists here. Retain vanilla generic specialist values."
+        }
+      ]
+    }
+  ]
+}

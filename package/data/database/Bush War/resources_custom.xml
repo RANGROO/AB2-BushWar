@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <sprite name="flag_us" base_angle="0">
+    <image file="flag\flag_us.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_su" base_angle="0">
+    <image file="flag\flag_su.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_cz" base_angle="0">
+    <image file="flag\flag_cz.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_fi" base_angle="0">
+    <image file="flag\flag_fi.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_de" base_angle="0">
+    <image file="flag\flag_de.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_ddr" base_angle="0">
+    <image file="flag\flag_ddr.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_dk" base_angle="0">
+    <image file="flag\flag_dk.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_pl" base_angle="0">
+    <image file="flag\flag_pl.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_pl2" base_angle="0">
+    <image file="flag\flag_pl2.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_uk" base_angle="0">
+    <image file="flag\flag_uk.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_yu" base_angle="0">
+    <image file="flag\flag_yu.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_ita" base_angle="0">
+    <image file="flag\flag_ita.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_se" base_angle="0">
+    <image file="flag\flag_se.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_no" base_angle="0">
+    <image file="flag\flag_no.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_fr" base_angle="0">
+    <image file="flag\flag_fr.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_be" base_angle="0">
+    <image file="flag\flag_be.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_nl" base_angle="0">
+    <image file="flag\flag_nl.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_za" base_angle="0">
+    <image file="flag\flag_za.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_cu" base_angle="0">
+    <image file="flag\flag_cu.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_unita_draft" base_angle="0">
+    <image file="flag\flag_unita_draft.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_ao" base_angle="0">
+    <image file="flag\flag_ao.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="flag_rh_1978" base_angle="0">
+    <image file="flag\flag_rh_1978.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="rh_flag_1964" base_angle="0">
+    <image file="flag\rh_flag_1964.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="fapla_epla_movement_flag_1965" base_angle="0">
+    <image file="flag\fapla_epla_movement_flag_1965.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+  <sprite name="za_flag_1994" base_angle="0">
+    <image file="flag\za_flag_1994.png" />
+    <translation origin="top_left" />
+    <rotation origin="top_left" />
+  </sprite>
+
+<sprite name="zanla_flag" base_angle="0"><image file="flag\zanla_flag.png" /></sprite>
+<sprite name="zipra_flag" base_angle="0"><image file="flag\zipra_flag.png" /></sprite>
+<sprite name="mz_flag" base_angle="0"><image file="flag\mz_flag.png" /></sprite>
+<sprite name="mz_flag_1975" base_angle="0"><image file="flag\mz_flag_1975.png" /></sprite>
+<sprite name="mz_flag_1983" base_angle="0"><image file="flag\mz_flag_1983.png" /></sprite>
+</resources>

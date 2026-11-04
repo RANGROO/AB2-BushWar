@@ -1,0 +1,13 @@
+Cuban moving-personnel appearance study,1978-1987.
+This is a representative AB2 faction/date appearance allocation, not proof of a universal unit issue or exact replacement date. Earlier and later configurations remain unfinished. No combat purchases or statistics change.
+Clothing/cap reference: https://cuba-militaria.org/ejercito/ (collector-attributed1976-1988 uniform).
+Pouch/belt objects: https://cuba-militaria.org/ausrustung/ (some objects have Grenada provenance; not Angola issue proof).
+Original object photographs by Manuel Leyva were inspected as construction references; their pixels/watermarks are not included. Generated material colours, buckle relief and geometry dimensions are art estimates.
+Late1977 equipment lead: https://guerradeangola.com/2009/11/25/la-lucha-contra-bandidos/ (Tchamutete comment,2December2009; self-identified participant, identity/date not independently verified). This does not establish a universal equipment change.
+RPG technical family: https://72mpr.mo.gov.cz/pancerovka (40mm launcher /85mm PG7V family). This technical reference does not date Cuban deployment. Model shape/optic mounting remain approximations fitted to native hands; firing effects and finger/aim acceptance are untested.
+Native AB2 body/AK/optical assets and existing local RPG donor are reused. Per-soldier RPK appearance is not separately encoded by the inspected native44-pose family. No unsupported per-unit moving-model field or MANPADS purchase is invented.
+Offline import, UV/normal, finite-edge and native-ground-envelope checks are separate from engine acceptance. No game launch/publication is implied.
+
+Mandatory MANPADS pose art update13October2026: native Strela-family graphical approximation fitted to unchanged national body/hands/cap/pouch. Complete1855triangles; native32-bit import passes. Rigid launcher adjustment6degrees and10mmoutward clears head/neck/torso/cap/pouch finite-edge crossings;35/43hand pairs are grip interfaces. Source native rear emission marker convention retained and transformed with the prop. All44existing atlas footprints remain exact.
+Technical family: https://www.mo.gov.cz/scripts/detail.php?id=6327 and referenced ministry photo02.jpg (Strela2family; exact2Mexternal details remain approximate). Source prop long-axis spanabout1.508m versus nominal1.49m; no source photograph pixels copied.
+No Cuban MANPADS purchase/date is enabled by this art update. Training of Cubans atPointeNoire inNovember1975 is a lead; the source transfers Soviet advisers toLuanda, not explicitly Cuban teams. Operator/Angola deployment and retention qualification continues. Engine animation/emission, containment/coplanar geometry and finger acceptance remain untested.
