@@ -3,7 +3,7 @@ Bush War brings the conflicts of southern Africa to Armored Brigade II, with a f
 
 I've aimed to keep the equipment, formations and dates grounded in historical research. I have done my best to recreate these military forces while fitting AB2's style of organisation. Don't expect these factions to perform well against the vanilla factions.
 
-South Africa also includes some experimental SADF vehicles, such as the TTD and Rooikat 105 (Wargame: Red Dragon classics).
+South Africa also includes some experimental SADF vehicles, such as the TTD and Rooikat 105 (Wargame: Red Dragon classics). I also gave Rhodesia T-55's based on the tests they did towards the end of 1979.
 
 [h2]Eight factions[/h2]
 [list]
@@ -21,3 +21,7 @@ There are no missions or maps, just factions. I wanted to recreate some of the m
 There may be some issues with unit models, as they are not 100% complete.
 
 Let me know in the comments about any issues or suggestions for historical accuracy.
+
+[h2]Source and modding guides[/h2]
+[url=https://github.com/RANGROO/AB2-BushWar]GitHub: AB2-BushWar[/url]
+The repository includes the mod files, agent instructions, examples and lessons learned for anyone interested in making their own AB2 mods.
