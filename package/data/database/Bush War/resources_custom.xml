@@ -126,9 +126,9 @@
     <rotation origin="top_left" />
   </sprite>
 
-<sprite name="zanla_flag" base_angle="0"><image file="flag\zanla_flag.png" /></sprite>
-<sprite name="zipra_flag" base_angle="0"><image file="flag\zipra_flag.png" /></sprite>
-<sprite name="mz_flag" base_angle="0"><image file="flag\mz_flag.png" /></sprite>
-<sprite name="mz_flag_1975" base_angle="0"><image file="flag\mz_flag_1975.png" /></sprite>
-<sprite name="mz_flag_1983" base_angle="0"><image file="flag\mz_flag_1983.png" /></sprite>
+<sprite name="zanla_flag" base_angle="0"><image file="flag\zanla_flag.png" /><translation origin="top_left" /><rotation origin="top_left" /></sprite>
+<sprite name="zipra_flag" base_angle="0"><image file="flag\zipra_flag.png" /><translation origin="top_left" /><rotation origin="top_left" /></sprite>
+<sprite name="mz_flag" base_angle="0"><image file="flag\mz_flag.png" /><translation origin="top_left" /><rotation origin="top_left" /></sprite>
+<sprite name="mz_flag_1975" base_angle="0"><image file="flag\mz_flag_1975.png" /><translation origin="top_left" /><rotation origin="top_left" /></sprite>
+<sprite name="mz_flag_1983" base_angle="0"><image file="flag\mz_flag_1983.png" /><translation origin="top_left" /><rotation origin="top_left" /></sprite>
 </resources>
