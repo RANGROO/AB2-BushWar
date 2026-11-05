@@ -18,3 +18,9 @@ No game was launched. No Workshop update or manual installation was performed fo
 - No Windows Application Error/WER entry or local crash dump for AB2 was found in the inspected recent window. Absence of such an entry does not prove the game did not crash.
 
 The flag patch is deliberately narrow. Import, reference and image checks do not establish mission-start acceptance or prove that zero artillery is safe.
+
+## Subsequent Windows crash dump, 4 November
+
+At 16:38 local time Windows recorded exception 0xC0000094 at ArmoredBrigade2.exe+0x266998. The x86 dump contains an integer divide by EDI with EDI zero. The same frame contains the artillery and target-reference-point labels and the points calculation (0x100 = 0p). The zero gun count is the best-supported database cause. The earlier sprite change alone does not address this arithmetic.
+
+Use the minimum positive count of one for the 16 profiles that set zero. This can expose one generic off-map gun at the existing cost where the author intended none. It is an engine compatibility allowance, not evidence of a historical battery. No unit or formation has been added. The affected missions still require testing with the corrected Workshop build.

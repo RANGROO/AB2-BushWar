@@ -36,6 +36,9 @@ def verify_payload(runtime_root=None, game_root=None):
         assert relative.startswith('data/') and re.fullmatch(r'[0-9a-f]{64}', value)
     actual = {p.relative_to(package).as_posix(): digest(p) for p in package.rglob('*') if p.is_file()}
     assert actual == expected, 'Payload differs from the committed ownership manifest'
+    factions = E.parse(package / 'data/database/Bush War/factions.xml')
+    for guns in factions.findall(".//string[@name='artyGunNum']"):
+        assert int(guns.attrib['value']) > 0, 'Artillery points calculation requires a positive gun count'
     sprites = E.parse(package / 'data/database/Bush War/resources_custom.xml').getroot()
     for sprite in sprites.findall('sprite'):
         if sprite.find('image') is not None:
