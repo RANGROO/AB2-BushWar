@@ -6,6 +6,7 @@ import hashlib
 import io
 import json
 import re
+import xml.etree.ElementTree as E
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -35,6 +36,15 @@ def verify_payload(runtime_root=None, game_root=None):
         assert relative.startswith('data/') and re.fullmatch(r'[0-9a-f]{64}', value)
     actual = {p.relative_to(package).as_posix(): digest(p) for p in package.rglob('*') if p.is_file()}
     assert actual == expected, 'Payload differs from the committed ownership manifest'
+    factions = E.parse(package / 'data/database/Bush War/factions.xml')
+    for guns in factions.findall(".//string[@name='artyGunNum']"):
+        assert int(guns.attrib['value']) > 0, 'Artillery points calculation requires a positive gun count'
+    sprites = E.parse(package / 'data/database/Bush War/resources_custom.xml').getroot()
+    for sprite in sprites.findall('sprite'):
+        if sprite.find('image') is not None:
+            for transform in ('translation', 'rotation'):
+                node = sprite.find(transform)
+                assert node is not None and node.get('origin'), ('Incomplete sprite transform', sprite.get('name'), transform)
     assert not any(n.startswith('data/map/') for n in actual), 'Custom maps must remain withdrawn'
     scenarios = [n for n in actual if n.startswith('data/scenario/') and n.endswith('/scenario.xml')]
     assert scenarios == ['data/scenario/user/sadf_1966_1994_all_vehicles/scenario.xml']
